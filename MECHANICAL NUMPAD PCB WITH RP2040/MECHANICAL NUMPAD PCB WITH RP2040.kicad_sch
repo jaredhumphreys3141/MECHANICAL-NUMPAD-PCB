@@ -3559,8 +3559,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at -2.54 6.35 0)
+			(property "Reference" "SW22"
+				(at 6.35 2.54 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3570,8 +3570,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -2.54 -5.08 0)
+			(property "Value" "KMR2"
+				(at -1.905 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3582,7 +3582,7 @@
 				)
 			)
 			(property "Footprint" "Adafruit KB2040:BTN_KMR2_4.6X2.8"
-				(at 0 0 0)
+				(at 0.254 8.382 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3603,7 +3603,7 @@
 					)
 				)
 			)
-			(property "Description" "SMT Tact Switches\n\n• 6x6mm - Digikey: P12940SCT-ND\n• KMR2 (4.6x2.8mm) - Digikey: 401-1426-1-ND\n• EVQ-PQHB55 - Light Touch, 160GF (4.5x4.5mm) - Digikey: P8090SCT-ND\n• KMT0 - KMT021 NGJ LHS (etc.) IP68/Waterproof - Digikey: CKN10289CT-ND"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3789,25 +3789,7 @@
 							)
 						)
 					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "P1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A'"
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -3825,7 +3807,25 @@
 							)
 						)
 					)
-					(number "B"
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 0 0)
@@ -3843,615 +3843,7 @@
 							)
 						)
 					)
-					(number "B'"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Adafruit KB2040-eagle-import:USB_C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "X"
-				(at -10.16 13.716 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -10.16 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Adafruit KB2040:USB_C_CUSB31-CFM2AX-01-X"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "USB Type-C USB 2.0 Connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "USB_C_1_0"
-				(polyline
-					(pts
-						(xy -10.2 7.62) (xy -10.16 12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 12.7) (xy -10.16 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 12.7) (xy 7.62 12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 -12.7) (xy 7.62 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.92 1.6) (xy -8.12 2.4)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.52 1.6) (xy -8.52 1.4)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.52 1.4) (xy -8.32 1.2)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.32 2) (xy -8.72 1.6)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.32 1.2) (xy -8.32 2)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.12 2.4) (xy -7.92 2.4)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.12 1) (xy -8.12 2.4)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.12 0.8) (xy -8.92 1.6)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.92 2.4) (xy -7.92 1.6)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.92 1.6) (xy -7.92 0.8)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.92 0.8) (xy -8.12 0.8)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.12 -0.45)
-					(end -5.92 0.75)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.27 0.15) (xy -5.07 0.15)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.92 3.2)
-					(radius 0.2)
-					(stroke
-						(width 1)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.52 3.2) (xy -4.52 3.2)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.07 0.15) (xy -4.22 1.6)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.52 3.2) (xy -3.47 1.6)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.22 1.6) (xy -7.92 1.6)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.47 1.6) (xy -4.22 1.6)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.32 1.6)
-					(radius 0.5)
-					(stroke
-						(width 1)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.32 1.6) (xy -3.47 1.6)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 12.7) (xy 7.62 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "USB C"
-					(at -5.08 -2.54 0)
-					(effects
-						(font
-							(size 1.27 1.0795)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "A1B12"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "A4B9"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 -10.16 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "B1A12"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "VBUS"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "B4A9"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "D+"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "D-"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.524 1.524)
-							)
-						)
-					)
-					(number "B8"
+					(number "4"
 						(effects
 							(font
 								(size 0 0)
@@ -5017,6 +4409,719 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 22.225 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 3.81 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Receptacle*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
+				(rectangle
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 15.494)
+					(end 9.144 14.986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 0.254)
+					(end 9.144 -0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -4.826)
+					(end 9.144 -5.334)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 3.81)
+					(mid -6.985 4.4423)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -8.89 3.81)
+					(mid -6.985 5.7067)
+					(end -5.08 3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -3.81)
+					(mid -6.985 -5.7067)
+					(end -8.89 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 -3.81)
+					(mid -6.985 -4.4423)
+					(end -7.62 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_Diode_AKL:CD4148WT"
 			(body_styles demorgan)
 			(pin_numbers
@@ -5260,6 +5365,307 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SWITCH_TACT_SMT4.6X2.8_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW21"
+				(at 6.35 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "KMR2"
+				(at -1.905 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "JH_FOOTPRINTS:SW4_SKRAAKE010_ALPS"
+				(at -0.254 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SWITCH_TACT_SMT4.6X2.8_1_1_0"
+				(circle
+					(center -2.54 0)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 4.445) (xy -1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.445) (xy -1.905 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.445) (xy 0 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 0.635)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 4.445) (xy 0 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 4.445) (xy 1.905 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.127)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "P1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -5460,12 +5866,6 @@
 		(uuid "08d51209-2d28-4f98-9b96-886f6dddd1ba")
 	)
 	(junction
-		(at 229.87 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a306b31-78bd-411e-b338-fd3be9be7a96")
-	)
-	(junction
 		(at 186.69 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5490,12 +5890,6 @@
 		(uuid "1fe7a7e5-97ef-407a-8334-4f2f4bcd1bb3")
 	)
 	(junction
-		(at 224.79 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "21e202b9-7a5f-44c5-897d-3721a7b6d710")
-	)
-	(junction
 		(at 229.87 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5506,6 +5900,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2336a0f8-50ba-46af-871b-d2f661ee2bd6")
+	)
+	(junction
+		(at 160.02 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "277ea386-5790-426a-ac2c-fd51fa389f84")
 	)
 	(junction
 		(at 19.05 139.7)
@@ -5574,12 +5974,6 @@
 		(uuid "555ce352-e913-45e4-b192-4e71854f81c5")
 	)
 	(junction
-		(at 251.46 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5600f001-6b6d-49fe-a408-dc2c0b654df2")
-	)
-	(junction
 		(at 21.59 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5616,22 +6010,16 @@
 		(uuid "9640cb93-3b65-4e58-97bb-bf725bf87f1e")
 	)
 	(junction
-		(at 208.28 137.16)
+		(at 160.02 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "96c3e7e5-d9e2-4167-bfa6-75ead3a4f0e2")
+		(uuid "9f73a258-2323-4e3b-816e-28a53b388a75")
 	)
 	(junction
 		(at 224.79 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a003209c-98c7-4d2f-92ac-25aaaaa6beb0")
-	)
-	(junction
-		(at 203.2 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af421fc0-83e8-408f-a135-1d0776567a49")
 	)
 	(junction
 		(at 224.79 148.59)
@@ -5712,12 +6100,6 @@
 		(uuid "eaa2fca2-b806-4355-82a9-677e3699d040")
 	)
 	(junction
-		(at 246.38 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec56e87d-fc76-420c-906d-eacf7e53a7ca")
-	)
-	(junction
 		(at 57.15 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5741,16 +6123,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 157.48) (xy 246.38 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01d8de61-15b1-425d-a7f5-6b22313f425b")
-	)
-	(wire
-		(pts
 			(xy 115.57 129.54) (xy 125.73 129.54)
 		)
 		(stroke
@@ -5761,16 +6133,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 36.83) (xy 16.51 29.21)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "039e93d4-10cb-4dfe-9f73-aba4120dd4c7")
-	)
-	(wire
-		(pts
 			(xy 39.37 116.84) (xy 21.59 116.84)
 		)
 		(stroke
@@ -5778,16 +6140,6 @@
 			(type solid)
 		)
 		(uuid "06933fe1-fe14-4ae6-8802-03fb1df96e6a")
-	)
-	(wire
-		(pts
-			(xy 208.28 137.16) (xy 208.28 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "079b546f-7271-4b8a-a303-c9c83b1330e5")
 	)
 	(wire
 		(pts
@@ -5851,16 +6203,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 25.4) (xy 215.9 25.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "12783f5c-bb63-4e70-9bb4-d2d27ca376ff")
-	)
-	(wire
-		(pts
 			(xy 31.75 39.37) (xy 31.75 36.83)
 		)
 		(stroke
@@ -5878,16 +6220,6 @@
 			(type solid)
 		)
 		(uuid "13e0d8b0-1520-4566-9a01-5baf3cc029a1")
-	)
-	(wire
-		(pts
-			(xy 267.97 166.37) (xy 267.97 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b972a9-9f30-42f4-93df-5f966866a533")
 	)
 	(wire
 		(pts
@@ -5921,16 +6253,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 157.48) (xy 254 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1879f70d-fa01-47f3-844f-1b3dfdcd54d6")
-	)
-	(wire
-		(pts
 			(xy 199.39 137.16) (xy 203.2 137.16)
 		)
 		(stroke
@@ -5941,6 +6263,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 29.21) (xy 168.91 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a08f132-ff55-4509-8e1c-63b9a3db039d")
+	)
+	(wire
+		(pts
 			(xy 240.03 40.64) (xy 257.81 40.64)
 		)
 		(stroke
@@ -5948,6 +6280,16 @@
 			(type solid)
 		)
 		(uuid "1a2059de-562a-4d68-bf40-fb1b00b424ac")
+	)
+	(wire
+		(pts
+			(xy 17.78 36.83) (xy 16.51 36.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1a7bdaa4-3796-4bc1-b6f0-7ff6fa90ed19")
 	)
 	(wire
 		(pts
@@ -5991,6 +6333,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 36.83) (xy 16.51 29.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1e5290f5-543f-4b34-ad7f-73a74547b796")
+	)
+	(wire
+		(pts
 			(xy 125.73 175.26) (xy 130.81 175.26)
 		)
 		(stroke
@@ -5998,16 +6350,6 @@
 			(type solid)
 		)
 		(uuid "20e33a5a-a901-46cd-bf06-c32f9263c295")
-	)
-	(wire
-		(pts
-			(xy 246.38 168.91) (xy 267.97 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20ffeb98-5bfa-40e9-b9eb-ec2bdcfcf3d6")
 	)
 	(wire
 		(pts
@@ -6151,16 +6493,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 166.37) (xy 246.38 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cce9639-fdab-4b8f-823a-f81288f539b5")
-	)
-	(wire
-		(pts
 			(xy 115.57 116.84) (xy 118.11 116.84)
 		)
 		(stroke
@@ -6251,16 +6583,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 157.48) (xy 246.38 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "391089a5-5e20-4dcf-af82-d95ae42b58d8")
-	)
-	(wire
-		(pts
 			(xy 27.94 137.16) (xy 39.37 137.16)
 		)
 		(stroke
@@ -6288,16 +6610,6 @@
 			(type solid)
 		)
 		(uuid "3c9f6310-db24-4047-87d0-d7f2161a57ea")
-	)
-	(wire
-		(pts
-			(xy 208.28 43.18) (xy 200.66 43.18)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "3e64b896-242d-42a0-a70b-189cfdece711")
 	)
 	(wire
 		(pts
@@ -6351,16 +6663,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 157.48) (xy 224.79 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a51544-23ca-4b8f-a6b1-d8465c3a38da")
-	)
-	(wire
-		(pts
 			(xy 229.87 73.66) (xy 229.87 95.25)
 		)
 		(stroke
@@ -6411,7 +6713,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 36.83) (xy 26.67 36.83)
+			(xy 22.86 36.83) (xy 26.67 36.83)
 		)
 		(stroke
 			(width 0.1524)
@@ -6561,16 +6863,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 137.16) (xy 229.87 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68e45ebc-b143-40f0-98f5-9c7829f8c68a")
-	)
-	(wire
-		(pts
 			(xy 26.67 34.29) (xy 26.67 36.83)
 		)
 		(stroke
@@ -6608,16 +6900,6 @@
 			(type solid)
 		)
 		(uuid "6d7b92a5-3135-4d53-85de-5d1cb04b670f")
-	)
-	(wire
-		(pts
-			(xy 218.44 48.26) (xy 218.44 45.72)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6e0e39bf-02dc-4ccc-8485-830e4249e693")
 	)
 	(wire
 		(pts
@@ -6691,16 +6973,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 27.94) (xy 215.9 27.94)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "75dd1904-f572-42ec-8f19-22eb316cb429")
-	)
-	(wire
-		(pts
 			(xy 74.93 34.29) (xy 74.93 36.83)
 		)
 		(stroke
@@ -6728,6 +7000,16 @@
 			(type default)
 		)
 		(uuid "791a5b1e-1188-41f7-8ec6-306216038fc6")
+	)
+	(wire
+		(pts
+			(xy 160.02 21.59) (xy 163.83 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be7b232-8632-4af4-80b6-7ff057cfcadb")
 	)
 	(wire
 		(pts
@@ -6851,16 +7133,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 33.02) (xy 213.36 33.02)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "878d398d-1180-4422-8de7-6a63c5fa9efb")
-	)
-	(wire
-		(pts
 			(xy 267.97 116.84) (xy 267.97 118.11)
 		)
 		(stroke
@@ -6888,16 +7160,6 @@
 			(type default)
 		)
 		(uuid "8ba20dc8-0e94-4b01-889e-601642457a58")
-	)
-	(wire
-		(pts
-			(xy 200.66 30.48) (xy 218.44 30.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8cd5b0b6-b039-41bf-bd29-3db24b5ec329")
 	)
 	(wire
 		(pts
@@ -6941,16 +7203,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 168.91) (xy 224.79 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9381a236-f3c3-4185-b6ad-150b19be0b3e")
-	)
-	(wire
-		(pts
 			(xy 39.37 111.76) (xy 21.59 111.76)
 		)
 		(stroke
@@ -6961,13 +7213,13 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 157.48) (xy 232.41 157.48)
+			(xy 160.02 34.29) (xy 160.02 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94adc316-99b0-4f99-859e-28c971ab4df2")
+		(uuid "93c6c5e4-a401-4755-9d42-42d98b875270")
 	)
 	(wire
 		(pts
@@ -7051,6 +7303,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 26.67) (xy 175.26 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ca61bd4-3a3a-48d9-8d9f-8fbfa885519c")
+	)
+	(wire
+		(pts
 			(xy 264.16 116.84) (xy 267.97 116.84)
 		)
 		(stroke
@@ -7091,13 +7353,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 157.48) (xy 224.79 158.75)
+			(xy 160.02 26.67) (xy 175.26 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e292878-9a27-4b73-8aca-ac2151610ca9")
+		(uuid "9e8e2376-8f9b-40be-93ea-209841b7b36a")
 	)
 	(wire
 		(pts
@@ -7151,16 +7413,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 137.16) (xy 251.46 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a27e7c65-3a33-472f-9b1f-47dc9bbefece")
-	)
-	(wire
-		(pts
 			(xy 93.98 20.32) (xy 93.98 17.78)
 		)
 		(stroke
@@ -7168,16 +7420,6 @@
 			(type solid)
 		)
 		(uuid "a29c6c02-7df8-481b-aed2-444491d870bd")
-	)
-	(wire
-		(pts
-			(xy 264.16 157.48) (xy 267.97 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a47154c6-6bc5-4004-a273-504d4c3d2962")
 	)
 	(wire
 		(pts
@@ -7191,13 +7433,23 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 157.48) (xy 210.82 157.48)
+			(xy 168.91 29.21) (xy 168.91 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab9f5e60-29eb-4949-8d57-f39549a37348")
+		(uuid "aa6b28f3-ba38-4d9f-bd75-8cedc147e387")
+	)
+	(wire
+		(pts
+			(xy 160.02 34.29) (xy 163.83 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6151c7-9e33-4424-8ca8-153687b0fbb0")
 	)
 	(wire
 		(pts
@@ -7231,16 +7483,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 33.02) (xy 213.36 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ac72edf6-7b7f-48f3-9bb1-ae6fadd92489")
-	)
-	(wire
-		(pts
 			(xy 21.59 116.84) (xy 21.59 114.3)
 		)
 		(stroke
@@ -7268,16 +7510,6 @@
 			(type default)
 		)
 		(uuid "b0b49f28-0a0d-4d03-959c-fe7d4594a2de")
-	)
-	(wire
-		(pts
-			(xy 213.36 45.72) (xy 213.36 48.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b175bee1-e435-46f2-aca9-2914fc7ef81e")
 	)
 	(wire
 		(pts
@@ -7311,16 +7543,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 166.37) (xy 224.79 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b613ffd4-3b41-4ece-854c-2cab67558549")
-	)
-	(wire
-		(pts
 			(xy 115.57 132.08) (xy 125.73 132.08)
 		)
 		(stroke
@@ -7338,16 +7560,6 @@
 			(type default)
 		)
 		(uuid "ba6522a8-f53e-40af-bfaf-65bcb3bf8b0e")
-	)
-	(wire
-		(pts
-			(xy 224.79 168.91) (xy 246.38 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba701c20-9295-40a9-a51b-c30ca55b2967")
 	)
 	(wire
 		(pts
@@ -7398,6 +7610,16 @@
 			(type default)
 		)
 		(uuid "be5628c8-242d-4a7c-9f99-3bfabfc914e4")
+	)
+	(wire
+		(pts
+			(xy 160.02 39.37) (xy 160.02 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beb55af5-502a-4d62-a207-582a40daf598")
 	)
 	(wire
 		(pts
@@ -7651,16 +7873,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 30.48) (xy 218.44 35.56)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "da224a02-776d-4e75-bce9-196932b49843")
-	)
-	(wire
-		(pts
 			(xy 111.76 43.18) (xy 114.3 43.18)
 		)
 		(stroke
@@ -7881,6 +8093,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 39.37) (xy 163.83 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f728fdf3-ddef-41ad-afb5-0624682ed166")
+	)
+	(wire
+		(pts
 			(xy 26.67 38.1) (xy 26.67 36.83)
 		)
 		(stroke
@@ -7901,16 +8123,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 22.86) (xy 200.66 22.86)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f93e24ca-323f-482a-bac1-2cd0b8954504")
-	)
-	(wire
-		(pts
 			(xy 224.79 104.14) (xy 224.79 106.68)
 		)
 		(stroke
@@ -7928,16 +8140,6 @@
 			(type default)
 		)
 		(uuid "fa5a30b8-9d0c-454f-9a7b-232c28330ac7")
-	)
-	(wire
-		(pts
-			(xy 267.97 157.48) (xy 267.97 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faf39aef-5d0a-4d40-90d6-14cc5a9504ca")
 	)
 	(wire
 		(pts
@@ -7968,6 +8170,16 @@
 			(type solid)
 		)
 		(uuid "fd728fd7-6082-4cfb-9abc-be883374400c")
+	)
+	(wire
+		(pts
+			(xy 163.83 21.59) (xy 163.83 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdd65ec2-97c5-4d99-bf7a-c7860287bd12")
 	)
 	(wire
 		(pts
@@ -8009,6 +8221,16 @@
 		)
 		(uuid "0bea4212-6ddc-4f7e-83bf-8520d323a8ef")
 	)
+	(label "D-"
+		(at 163.83 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ee164ab-0042-4b2f-a04b-2eee46da30a7")
+	)
 	(label "ROW2"
 		(at 181.61 168.91 180)
 		(effects
@@ -8040,6 +8262,16 @@
 		(uuid "269c1f56-4d5e-46e7-8aef-76109b3b873a")
 	)
 	(label "D+"
+		(at 163.83 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e6fa642-7e4f-4132-b420-38c54b19449a")
+	)
+	(label "D+"
 		(at 128.27 177.8 0)
 		(effects
 			(font
@@ -8058,16 +8290,6 @@
 			(justify left bottom)
 		)
 		(uuid "3132a3e0-059b-4511-8fa4-1fd6102c8c0b")
-	)
-	(label "VBUS"
-		(at 205.74 22.86 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "3cae82d5-fe00-4bbd-ac29-692d4edc880c")
 	)
 	(label "QSPI_DATA[3]"
 		(at 240.03 40.64 0)
@@ -8098,16 +8320,6 @@
 			(justify left bottom)
 		)
 		(uuid "460cb1ef-9209-4d11-8471-b6131f075e12")
-	)
-	(label "CC2"
-		(at 205.74 33.02 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e1df788-0275-4b88-9a3d-a206de0e92d8")
 	)
 	(label "MISO"
 		(at 120.65 160.02 0)
@@ -8169,16 +8381,6 @@
 		)
 		(uuid "6f475325-5fda-418a-addc-fba514317752")
 	)
-	(label "GND"
-		(at 205.74 43.18 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "720abe24-3c52-4e51-8fcd-d8edcf24a06a")
-	)
 	(label "SCLK"
 		(at 120.65 154.94 0)
 		(effects
@@ -8229,16 +8431,6 @@
 		)
 		(uuid "8a14380b-f154-4a4b-9f00-66789271d8ed")
 	)
-	(label "D+"
-		(at 205.74 25.4 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "93933fc8-78d1-4f2b-a31a-1a724999bc07")
-	)
 	(label "ROW2"
 		(at 181.61 128.27 180)
 		(effects
@@ -8248,26 +8440,6 @@
 			(justify right bottom)
 		)
 		(uuid "a0dfabbe-9d6f-4dfd-8540-0e3e3155a5d8")
-	)
-	(label "CC1"
-		(at 205.74 30.48 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "a49ab05c-b4b3-4e9f-8080-97c9f1345534")
-	)
-	(label "D-"
-		(at 205.74 27.94 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "bb82afaa-71e3-46ec-b080-6f3c42cb5d84")
 	)
 	(label "QSPI_CS"
 		(at 21.59 170.18 0)
@@ -8611,7 +8783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 203.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8735,6 +8907,89 @@
 			(project "MECHANICAL NUMPAD PCB WITH RP2040"
 				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit KB2040-eagle-import:RESISTOR_0402NO")
+		(at 168.91 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0548e0e0-aedc-4db4-95c9-1ef26c678220")
+		(property "Reference" "R2"
+			(at 170.4086 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 168.148 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 168.91 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca17bcf1-55d5-4db2-8563-ceb1d0f04e65")
+		)
+		(pin "2"
+			(uuid "3f16d2e2-9c3f-4c0b-87a8-210a2ccca51e")
+		)
+		(instances
+			(project "MECHANICAL NUMPAD PCB WITH RP2040"
+				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9087,7 +9342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:0603-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 62.23 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9324,7 +9579,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:SOLDERJUMPER_ARROW_NOPASTE"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 26.67 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9405,7 +9660,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_Handsoldering_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 93.98 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -9565,7 +9820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 246.38 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9647,7 +9902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 224.79 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10086,6 +10341,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit KB2040-eagle-import:GND")
+		(at 175.26 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26fcbc29-84ff-46de-96b7-fd3379693ec9")
+		(property "Reference" "#U$014"
+			(at 175.26 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.736 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27487084-e93b-4683-ad2f-83b2adbe3ffd")
+		)
+		(instances
+			(project "MECHANICAL NUMPAD PCB WITH RP2040"
+				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
+					(reference "#U$014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0603MP")
 		(at 39.37 88.9 0)
 		(unit 1)
@@ -10116,7 +10449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0603MP"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 39.37 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10278,7 +10611,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 120.65 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -10437,7 +10770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 80.01 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10564,8 +10897,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit KB2040-eagle-import:GND")
-		(at 208.28 45.72 0)
+		(lib_id "Adafruit KB2040-eagle-import:VBUS")
+		(at 163.83 16.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10573,9 +10906,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2db291e7-9ba4-476c-ad20-1807245205eb")
-		(property "Reference" "#U$8"
-			(at 208.28 45.72 0)
+		(uuid "2fe52181-d920-496d-9d25-98126d5566bf")
+		(property "Reference" "#U$017"
+			(at 163.83 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10585,8 +10918,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 206.756 48.26 0)
+		(property "Value" "VBUS"
+			(at 163.322 15.494 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10597,7 +10930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 45.72 0)
+			(at 163.83 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10608,7 +10941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 45.72 0)
+			(at 163.83 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10619,7 +10952,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 45.72 0)
+			(at 163.83 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10630,12 +10963,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe92d32b-db14-473d-aa02-e7a3a91d5d60")
+			(uuid "48af207a-3dfa-40a4-8345-c60224a92bb2")
 		)
 		(instances
 			(project "MECHANICAL NUMPAD PCB WITH RP2040"
 				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "#U$8")
+					(reference "#U$017")
 					(unit 1)
 				)
 			)
@@ -10802,6 +11135,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SWITCH_TACT_SMT4.6X2.8_1")
 		(lib_id "Adafruit KB2040-eagle-import:SWITCH_TACT_SMT4.6X2.8")
 		(at 114.3 48.26 270)
 		(unit 1)
@@ -10813,7 +11147,7 @@
 		(dnp no)
 		(uuid "314edea4-53af-4301-8468-97e0dd9992ca")
 		(property "Reference" "SW21"
-			(at 114.3 54.61 90)
+			(at 115.062 52.832 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10823,8 +11157,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "KMR2"
-			(at 107.95 46.355 0)
+		(property "Value" "SKRAAKE010"
+			(at 109.22 43.434 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10834,8 +11168,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:BTN_KMR2_4.6X2.8"
-			(at 114.3 48.26 0)
+		(property "Footprint" "JH_FOOTPRINTS:SW4_SKRAAKE010_ALPS"
+			(at 120.904 48.006 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10867,16 +11201,16 @@
 				)
 			)
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "bfc4de3f-b60a-4a39-94d7-47c84574bdc9")
 		)
-		(pin "B"
+		(pin "4"
 			(uuid "ea9db2b1-b0d7-4fb0-8c38-779a81f6d0ca")
 		)
-		(pin "B'"
+		(pin "1"
 			(uuid "12be1dfe-490b-4156-9a42-815a063d3049")
 		)
-		(pin "A'"
+		(pin "2"
 			(uuid "97357a71-6e62-45a0-8429-930424bb200f")
 		)
 		(instances
@@ -10919,7 +11253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 46.99 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11002,7 +11336,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:0805-NO"
+		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
 			(at 16.51 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11164,7 +11498,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 224.79 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -11718,7 +12052,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 234.95 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -11959,7 +12293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 267.97 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12116,7 +12450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 24.13 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12195,7 +12529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_fab:LED_0603"
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_0805_2012Metric"
 			(at 74.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12238,86 +12572,6 @@
 			(project "MECHANICAL NUMPAD PCB WITH RP2040"
 				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
 					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 237.49 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "596410e4-4da5-4180-abff-d2e87be895ed")
-		(property "Reference" "SW19"
-			(at 237.49 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 237.49 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 237.49 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 237.49 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "cec919d0-54d5-4976-a12a-76515b715c01")
-		)
-		(pin "1"
-			(uuid "0c2a3e6b-a78e-4fed-aaef-c3f43ffd6ff1")
-		)
-		(instances
-			(project "MECHANICAL NUMPAD PCB WITH RP2040"
-				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "SW19")
 					(unit 1)
 				)
 			)
@@ -12482,86 +12736,6 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 215.9 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60aac1b0-8925-4659-bb84-10b6dafa51cb")
-		(property "Reference" "SW18"
-			(at 215.9 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 215.9 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 215.9 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 215.9 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "70c2f382-7585-474d-b14a-066fa441a70c")
-		)
-		(pin "1"
-			(uuid "6945e1d5-1343-4ecf-99b4-f9f5835c9309")
-		)
-		(instances
-			(project "MECHANICAL NUMPAD PCB WITH RP2040"
-				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "SW18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
 		(at 194.31 116.84 0)
 		(unit 1)
 		(body_style 1)
@@ -12652,7 +12826,7 @@
 		(dnp no)
 		(uuid "63aaebc3-3051-4c8e-8127-45c6e5001ecb")
 		(property "Reference" "SW22"
-			(at 99.06 54.61 90)
+			(at 97.536 52.832 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12662,8 +12836,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "KMR2"
-			(at 90.17 46.355 0)
+		(property "Value" "SKRAAKE010"
+			(at 91.44 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12673,8 +12847,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:BTN_KMR2_4.6X2.8"
-			(at 96.52 48.26 0)
+		(property "Footprint" "JH_FOOTPRINTS:SW4_SKRAAKE010_ALPS"
+			(at 104.902 48.514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12706,16 +12880,16 @@
 				)
 			)
 		)
-		(pin "B"
+		(pin "4"
 			(uuid "3a573b64-5242-43dd-a98a-72b725504a59")
 		)
-		(pin "B'"
+		(pin "1"
 			(uuid "e76ad2b0-5b74-4e48-9b28-bfa007958fcd")
 		)
-		(pin "A"
+		(pin "3"
 			(uuid "90d86002-7a51-42c6-a8cf-0d549cc30aa2")
 		)
-		(pin "A'"
+		(pin "2"
 			(uuid "2adab0ef-d3d2-4982-8903-0e609c761749")
 		)
 		(instances
@@ -12728,8 +12902,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit KB2040-eagle-import:VBUS")
-		(at 215.9 20.32 0)
+		(lib_id "Adafruit KB2040-eagle-import:GND")
+		(at 168.91 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12737,9 +12911,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "640c4269-017a-42a9-a83e-16d854fd42d5")
-		(property "Reference" "#U$13"
-			(at 215.9 20.32 0)
+		(uuid "65180493-e3ed-48ee-b0d8-f1db77eb2389")
+		(property "Reference" "#U$07"
+			(at 168.91 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12749,8 +12923,8 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 215.392 19.304 0)
+		(property "Value" "GND"
+			(at 167.386 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12761,7 +12935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 20.32 0)
+			(at 168.91 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12772,7 +12946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 20.32 0)
+			(at 168.91 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12783,7 +12957,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 20.32 0)
+			(at 168.91 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12794,95 +12968,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ea38fa8-dc0b-48b5-8ba7-4fbe205e054d")
+			(uuid "a8f9c9db-abcc-4177-a834-bdf80f1e306b")
 		)
 		(instances
 			(project "MECHANICAL NUMPAD PCB WITH RP2040"
 				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "#U$13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit KB2040-eagle-import:RESISTOR_0402NO")
-		(at 213.36 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65df43a3-58d1-4595-a41f-b3f6aa64c5f7")
-		(property "Reference" "R2"
-			(at 214.8586 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 212.598 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
-			(at 213.36 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a05a0e1f-2477-4ba3-afbd-9467ee3fb005")
-		)
-		(pin "2"
-			(uuid "9e0d78f9-f194-4b2c-aa1e-496e2fa7041c")
-		)
-		(instances
-			(project "MECHANICAL NUMPAD PCB WITH RP2040"
-				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "R2")
+					(reference "#U$07")
 					(unit 1)
 				)
 			)
@@ -12922,7 +13013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 267.97 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13001,7 +13092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 87.63 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13317,7 +13408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 224.79 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -13396,7 +13487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0805MP"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 26.67 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13475,7 +13566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0805MP"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 57.15 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13528,88 +13619,6 @@
 			(project "MECHANICAL NUMPAD PCB WITH RP2040"
 				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 246.38 162.56 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83cfc8e9-71cc-4774-a6aa-f2f5985b7567")
-		(property "Reference" "D19"
-			(at 248.92 161.2899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CD4148WT"
-			(at 248.92 163.8299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
-			(at 246.38 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 246.38 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 246.38 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f718dafd-2657-4851-b8f4-64f6d4acb1d0")
-		)
-		(pin "1"
-			(uuid "a93b7cf1-e0dc-4f7b-bf3f-907d8b2f2089")
-		)
-		(instances
-			(project "MECHANICAL NUMPAD PCB WITH RP2040"
-				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -14053,7 +14062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 246.38 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14102,84 +14111,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit KB2040-eagle-import:GND")
-		(at 218.44 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "904aef69-bdf7-441c-8db5-c52d00793f70")
-		(property "Reference" "#U$14"
-			(at 218.44 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 216.916 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5829442f-5eec-4deb-97f8-c7077eb76bff")
-		)
-		(instances
-			(project "MECHANICAL NUMPAD PCB WITH RP2040"
-				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "#U$14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Diode_AKL:CD4148WT")
 		(at 203.2 142.24 270)
 		(unit 1)
@@ -14213,7 +14144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 203.2 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -14450,7 +14381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 54.61 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -14577,8 +14508,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 267.97 162.56 270)
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 144.78 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14587,31 +14518,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9f2e08d9-638a-492c-8d1e-f792cf2220df")
-		(property "Reference" "D20"
-			(at 270.51 161.2899 90)
+		(uuid "9def334d-c640-4e2a-8d20-f9da24bc99c2")
+		(property "Reference" "J1"
+			(at 144.78 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 270.51 163.8299 90)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 144.78 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
-			(at 267.97 162.56 0)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+			(at 148.59 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14621,8 +14550,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 267.97 162.56 0)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 148.59 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14632,8 +14561,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 267.97 162.56 0)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 144.78 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14643,16 +14572,61 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "46c3d999-8be0-4869-8e30-4ee650020f3a")
+		(pin "B12"
+			(uuid "38a6bc50-ca7f-479d-aaa3-44ef34af71aa")
 		)
-		(pin "1"
-			(uuid "235fd041-503f-4a61-bbba-7c0edd171c5c")
+		(pin "SH"
+			(uuid "8fb08706-723a-4310-9bbd-cd85f2110797")
+		)
+		(pin "A8"
+			(uuid "d213d6c2-083c-4eee-b5b1-301a06755a38")
+		)
+		(pin "B6"
+			(uuid "2f84b520-0938-4105-b2a4-682789da13a2")
+		)
+		(pin "A1"
+			(uuid "ea3ddc3f-cc02-45b6-9a39-73210138925a")
+		)
+		(pin "A5"
+			(uuid "2c00b60a-32c4-42c6-a50d-30f0e309c408")
+		)
+		(pin "A12"
+			(uuid "3ed68a98-93f4-4666-940d-bc9276a0420d")
+		)
+		(pin "B1"
+			(uuid "35da6d02-6c55-474d-ad7b-b8e235052427")
+		)
+		(pin "A4"
+			(uuid "f5b12947-9f33-40cb-9afd-4788776ec1e8")
+		)
+		(pin "A6"
+			(uuid "c6c733c6-c6c5-4dc3-acb5-819e4274dd90")
+		)
+		(pin "A9"
+			(uuid "2133a213-347c-4570-852a-6bfc8e146684")
+		)
+		(pin "B4"
+			(uuid "3f4d2590-cb77-406f-aafa-325df5b41054")
+		)
+		(pin "A7"
+			(uuid "766005a9-3449-44e1-9faa-5c1f37cb04c4")
+		)
+		(pin "B5"
+			(uuid "9939b105-190e-428b-acbf-ecd80c929c1a")
+		)
+		(pin "B7"
+			(uuid "8ecc0765-efbd-4be1-99bf-63bd5b60474b")
+		)
+		(pin "B8"
+			(uuid "0931107a-c49e-4b8f-aa2d-ff88f195274a")
+		)
+		(pin "B9"
+			(uuid "089821ee-e77f-4d37-888d-e2b3a36c79d7")
 		)
 		(instances
 			(project "MECHANICAL NUMPAD PCB WITH RP2040"
 				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "D20")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -14692,7 +14666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 203.2 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -14774,7 +14748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 224.79 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14980,117 +14954,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit KB2040-eagle-import:USB_C")
-		(at 190.5 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a7381de6-03c4-4384-bd7f-b197c8a2f90b")
-		(property "Reference" "X6"
-			(at 184.15 47.752 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "USB TYPE C"
-			(at 180.34 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit KB2040:USB_C_CUSB31-CFM2AX-01-X"
-			(at 190.5 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A8"
-			(uuid "8dd16242-a34b-4735-9684-61b0c74b32df")
-		)
-		(pin "A5"
-			(uuid "1616d38e-70f8-4c49-9546-ad27c7e82611")
-		)
-		(pin "B6"
-			(uuid "2722fb25-d33e-4e54-97ab-67892d95cc4b")
-		)
-		(pin "A4B9"
-			(uuid "c4360482-c205-4f20-88c3-075f0d06eabb")
-		)
-		(pin "B4A9"
-			(uuid "3b96d4c5-ba4e-4bc1-a065-fe3c3fab1a91")
-		)
-		(pin "A6"
-			(uuid "c1cc584f-554c-4e98-b55f-59ef4549f4d1")
-		)
-		(pin "B7"
-			(uuid "608aa23e-c23e-4bfb-a5e5-fc7a43513f00")
-		)
-		(pin "B5"
-			(uuid "d13df4d6-c622-4d25-bc93-7736ad310b92")
-		)
-		(pin "B1A12"
-			(uuid "592aec9b-0001-4cff-a6ef-54a756d8f646")
-		)
-		(pin "A7"
-			(uuid "85d4513b-86d8-43f8-92ed-114614d08e8f")
-		)
-		(pin "B8"
-			(uuid "5fb5a320-8c0b-4a87-83f6-adab5debe020")
-		)
-		(pin "A1B12"
-			(uuid "741eb5bc-12c3-4491-b4b9-028c3857ef6f")
-		)
-		(instances
-			(project "MECHANICAL NUMPAD PCB WITH RP2040"
-				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "X6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:RESISTOR_0402NO")
 		(at 21.59 99.06 270)
 		(unit 1)
@@ -15125,7 +14988,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 21.59 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15282,7 +15145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.49 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -15331,86 +15194,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 259.08 157.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ab7df253-6a57-4664-a9c4-af4060f667ae")
-		(property "Reference" "SW20"
-			(at 259.08 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 259.08 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 259.08 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 259.08 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1aee8f5a-4138-4b32-88d8-200789cfd233")
-		)
-		(pin "1"
-			(uuid "34dc64dc-49a1-4aed-af3c-08ce82ecf3d5")
-		)
-		(instances
-			(project "MECHANICAL NUMPAD PCB WITH RP2040"
-				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "SW20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:RESISTOR_0402NO")
 		(at 224.79 27.94 90)
 		(unit 1)
@@ -15445,7 +15228,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 224.79 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -15527,7 +15310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 267.97 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -15608,7 +15391,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:SOT23-5"
+		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:SOT23-5"
 			(at 44.45 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -15856,7 +15639,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 74.93 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15906,7 +15689,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:DIODESOD-323F")
-		(at 19.05 36.83 0)
+		(at 20.32 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15916,7 +15699,7 @@
 		(dnp no)
 		(uuid "b630501a-f280-45c0-9625-6857282bcbeb")
 		(property "Reference" "D21"
-			(at 16.51 34.29 0)
+			(at 17.78 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15927,7 +15710,7 @@
 			)
 		)
 		(property "Value" "NSR0320"
-			(at 16.51 40.64 0)
+			(at 17.78 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15937,8 +15720,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_Handsoldering_AKL:D_0603_1608Metric"
-			(at 19.05 36.83 0)
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
+			(at 20.32 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15949,7 +15732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 36.83 0)
+			(at 20.32 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15960,7 +15743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.05 36.83 0)
+			(at 20.32 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16018,7 +15801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 93.98 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -16100,7 +15883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 203.2 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16179,7 +15962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 95.25 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16228,89 +16011,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit KB2040-eagle-import:RESISTOR_0402NO")
-		(at 218.44 40.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bc69abfa-bd93-472a-9a34-502b57d73a73")
-		(property "Reference" "R1"
-			(at 219.9386 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "5.1K"
-			(at 217.678 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(thickness 0.2032)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
-			(at 218.44 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96cec2c9-016f-4c00-9a97-f9cc8e0ac640")
-		)
-		(pin "2"
-			(uuid "7788405d-c4e0-40a4-a2cd-fbc57b0fc792")
-		)
-		(instances
-			(project "MECHANICAL NUMPAD PCB WITH RP2040"
-				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Diode_AKL:CD4148WT")
 		(at 246.38 78.74 270)
 		(unit 1)
@@ -16344,7 +16044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 246.38 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -16472,84 +16172,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit KB2040-eagle-import:GND")
-		(at 213.36 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2017eff-1fbf-42c5-b0dd-2cd90ad3d2e8")
-		(property "Reference" "#U$7"
-			(at 213.36 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 211.836 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 213.36 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc0179a3-c6f8-49a8-af97-088d44d8737b")
-		)
-		(instances
-			(project "MECHANICAL NUMPAD PCB WITH RP2040"
-				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "#U$7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 259.08 116.84 0)
 		(unit 1)
@@ -16660,7 +16282,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0603MP"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 72.39 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16790,6 +16412,89 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:RESISTOR_0402NO")
+		(at 175.26 38.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8800376-0180-41bc-84f2-ef8924bb4ab4")
+		(property "Reference" "R1"
+			(at 176.7586 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 174.498 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.2032)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 175.26 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "214435b1-db2c-4ecc-a101-aa639dd49f15")
+		)
+		(pin "2"
+			(uuid "e17a175e-1f97-4c95-91c7-bf3c463ec010")
+		)
+		(instances
+			(project "MECHANICAL NUMPAD PCB WITH RP2040"
+				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit KB2040-eagle-import:RESISTOR_0402NO")
 		(at 34.29 142.24 0)
 		(unit 1)
 		(body_style 1)
@@ -16823,7 +16528,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 34.29 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -16906,7 +16611,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 229.87 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -16987,7 +16692,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:USON8_4X4"
+		(property "Footprint" "Package_SON:Texas_R-PUSON-N8_USON-8-1EP_1.6x2.1mm_P0.5mm_EP0.4x1.7mm"
 			(at 273.05 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -17324,7 +17029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 203.2 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17453,6 +17158,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit KB2040-eagle-import:GND")
+		(at 144.78 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ddb765c3-d934-4436-98c2-0a3242b3d914")
+		(property "Reference" "#U$08"
+			(at 144.78 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.256 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a87be39-2e4e-4ade-9c62-49eba66b1128")
+		)
+		(instances
+			(project "MECHANICAL NUMPAD PCB WITH RP2040"
+				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
+					(reference "#U$08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:microbuilder_VBUS")
 		(at 16.51 16.51 0)
 		(unit 1)
@@ -17525,88 +17308,6 @@
 			(project "MECHANICAL NUMPAD PCB WITH RP2040"
 				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
 					(reference "#U$3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 224.79 162.56 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8adc860-d6f9-4e8a-8c3b-5a12cf3e0fbc")
-		(property "Reference" "D18"
-			(at 227.33 161.2899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CD4148WT"
-			(at 227.33 163.8299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
-			(at 224.79 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 224.79 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 224.79 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a5504631-ded1-4cc6-9200-4d4a891dc4f7")
-		)
-		(pin "1"
-			(uuid "6abc9291-60c7-4083-afd9-8469b852dec0")
-		)
-		(instances
-			(project "MECHANICAL NUMPAD PCB WITH RP2040"
-				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
-					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -17726,7 +17427,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 267.97 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -17805,7 +17506,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 24.13 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17968,7 +17669,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 120.65 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -18205,7 +17906,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit KB2040:_0402NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -18287,7 +17988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 			(at 246.38 142.24 0)
 			(hide yes)
 			(show_name no)
