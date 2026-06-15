@@ -867,8 +867,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Y"
-				(at -2.54 2.54 0)
+			(property "Reference" "Y1"
+				(at 4.318 -4.318 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -878,19 +878,19 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -2.54 -3.81 0)
+			(property "Value" "12MHZ"
+				(at 0.508 -2.032 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.0795)
 					)
-					(justify left bottom)
+					(justify right top)
 				)
 			)
-			(property "Footprint" "Adafruit KB2040:CRYSTAL_2.5X2"
-				(at 0 0 0)
+			(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering"
+				(at 0.254 3.048 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -911,7 +911,7 @@
 					)
 				)
 			)
-			(property "Description" "Crystals\n\nHC49UP - Surface Mount Crystal\n\n• 4.0MHz 18pF +/-30ppm Surface Mount Crystal [Digikey: 535-9857-1-ND]\n• 12.0 MHz Surface Mount Crystal [Digikey: 535-9869-6-ND]\n• 25.0 MHz Surface Mount Crystal [Digikey: 535-9078-1-ND]\n\n2.5 x 2.0mm - MEMs SMT Crystal\n\n• 16.0 MHz 10pF 20ppm 2.5 x 2.0mm Crystal [Digikey -40-85°C: 535-10923-1-ND]\n\n3.2 x 2.5mm - MEMs SMT Crystal\n\n• 12.0 MHz 8pF 15ppm 3.2 x 2.5mm Crystal [Digikey: -10-70°C: 644-1047-1-ND -40-125°C: 644-1128-1-ND] 40~85°C cheaper: 644-1173-6-ND\n• 16.0 MHz 8pF 15ppm 3.2 x 2.5mm Crystal [Digikey: -10-70°C: 644-1049-1-ND -40-125°C: 644-1129-2-ND]-40~85°C cheaper: 644-1175-6-ND\n• 16.0 MHz 10pF 10ppm 3.2 x 2.5mm Crystal [Digikey: 644-1100-1-ND]\n• 27.12 MHz 18pF 30ppm 3.2 x 2.5mm Crystal [Digikey: 887-1424-1-ND]\n• 27.12MHz 10pF 10ppm 3.2 x 2.5mm Crystal [Digikey: 887-1329-1-ND]\n\n4.9 x 1.8mm - MEMs SMT Crystal\n\n• 32.768 KHz 12.5pF 20ppm 4.9 x 1.8mm Crystal [Digikey: SE2415CT-ND]\n\n8.0 x 3.8mm\n\n- Surface Mount Crystal\n\n• 32.768kHz 12.5pF 20ppm -40°C-85°C [Digikey: 535-9166-2-ND]\n\nCylinder\n\n• 32.768KHz Cylinder Crystal (2x6mm body) [Ex. Digikey: 300-8341-2-ND]"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1081,178 +1081,7 @@
 							)
 						)
 					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Adafruit KB2040-eagle-import:DIODESOD-323F"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -2.54 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Adafruit KB2040:SOD-323F"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Diode\n\nSMADIODE - SMA Surface Mount Package\n\n• 20V 1A Schottky Diode Digikey: 641-1014-6-ND\n\nDO-1N4148 - Through Hole Small Current Diode\nSOD-123\n\n• 20V 1 A (.5mV Vf) Schottky Diode - Digikey: MBRX120TPMSCT-ND\n\nSOD-323\n\n• 10V 570mA (.38mV Vf, 3ns) Schottky Diode - Digikey: ZLLS410CT-ND\n\nSOD-523\n\n• 30V 30mA Schottky Diode (RB751S-40TE61) - Digikey: RB751S-40TE61CT-ND\n\nSOT23-R/W - SOT23 Package (R = Solder Paste/Reflow Ovens, W = Hand-Soldering)\n\n• BAT54Film 40V 300mA - Digikey: 497-7162-1-ND"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DIODESOD-323F_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -1375,7 +1204,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
+			(property "Reference" "D22"
 				(at -1.27 4.445 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1385,7 +1214,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "GREEN"
 				(at -1.27 -2.794 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1395,7 +1224,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Adafruit KB2040:CHIPLED_0603_NOOUTLINE"
+			(property "Footprint" "PCM_LED_SMD_AKL:LED_0805_2012Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1417,7 +1246,7 @@
 					)
 				)
 			)
-			(property "Description" "LED\n\n0603 - 0603 Surface Mount Package\n\n2mA:\n\n• Green LED - Low Power (3.9mcd, 2ma, 1.7Vf) - Digikey: 475-2709-2-ND\n• Orange LED - Low Power (9.8mcd, 2ma, 1.8Vf) - Digikey: 475-1194-2-ND\n• Red LED - Low Power (5mcd, 2ma, 1.8Vf) - Digikey: 475-1195-2-ND\n• Yellow LED - Low Power (7mcd, 2ma, 1.8Vf) - Digikey: 475-1196-2-ND\n\n5mA:\n\n• Blue LED - Low Power (17mcd, 5ma, 2.9Vf) - Digikey: LNJ937W8CRACT-ND\n\n0805 - 0805 Surface Mount Package\n\n2mA:\n\n• Red LED (8.8mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2510-1-ND]\n• Green LED (5mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2730-1-ND]\n• Yellow LED (11.3mcd, 2mA, 1.8Vf, Clear) - Low Power [Digikey: 475-2555-1-ND]\n\n20mA:\n\n• Red LED (104mcd, 20mA, Diffused) - LS R976 [Digikey: 475-1278-6-ND]\n• Red LED (12mcd, 20mA, 2.0Vf, Clear) - APT2012EC [Digikey: 754-1128-1-ND]\n• Green LED (15mcd, 20mA, 2.2Vf, Clear) - APT2012GC [Digikey: 754-1131-1-ND]\n• Orange LED (160mcd, 20mA, 2.1Vf, Clear) - APT2012SECK [Digikey: 754-1130-1-ND]\n\n• 1206 - 1206 Surface Mount Package\n\n• Green LED (26mcd, 20mA, Diffused) - LG N971  [Digikey: 475-1407-6-ND]\n• Red LED (15mcd, 20mA, Diffused) - LH N974 [Digikey: 475-1416-6-ND]\n\n• Cree - Cree High-Power Surface Mount LEDs\n\n• XPEBWT-L1-0000-00D50 - White 111lm 350mA 2.9Vf 6200K 110°\n• XTEAWT-00-0000-00000LEE3 - White 114lm 350mA 2.85Vf 5000K 115°\n\n• Everlight - Everlight 45-21 Series Surface Mount LEDs\n\n• 45-21/QK2C-B2832AC2CB2/2T - Warm White 2000mcd 20mA 3.25Vf 3050K 120°\n• 45-21/LK2C-B38452C4CB2/2T - Nuetral White 2000mcd 20mA 3.25Vf 4150K 120°\n• 45-21/LK2C-B50634C6CB2/2T - Cold White 2200mcd 20mA 3.25Vf 5650K 120°\n\n• PLCC2 Reverse Mount\n\n• LS T77K-J1L2-1-0-2-R18-Z - Red 11.25mcd 2mA 1.8Vf 630nm 120°\n• LO T77K-L1M2-24-Z - Orange 19.6mcd 2mA 1.8Vf 606nm 120°\n• LY T77K-K2M1-26-Z - Yellow 15.7mcd 2mA 1.8Vf 587nm 120°"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1605,7 +1434,7 @@
 							)
 						)
 					)
-					(number "A"
+					(number "1"
 						(effects
 							(font
 								(size 0 0)
@@ -1623,7 +1452,7 @@
 							)
 						)
 					)
-					(number "C"
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -1980,7 +1809,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Adafruit KB2040:QFN56_7MM_REDUCEDEPAD"
+			(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3098,7 +2927,7 @@
 							)
 						)
 					)
-					(number "P$1"
+					(number "57"
 						(effects
 							(font
 								(size 1.524 1.524)
@@ -3274,7 +3103,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "U5"
 				(at -12.7 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3285,8 +3114,8 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" ""
-				(at -12.7 -10.16 0)
+			(property "Value" "8MB QSPI Flash"
+				(at -15.748 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3296,7 +3125,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Adafruit KB2040:USON8_4X4"
+			(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:USON-8_3x2mm-SkinnyCenterPad"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3318,7 +3147,7 @@
 					)
 				)
 			)
-			(property "Description" "SOIC8 SPI Flash\n\nBe careful with the size since SOIC8 flash comes in several 'widths'\n\nSOIC8 150 mil\n\n• M25P16 - 16Mbit (2Mbit x 8) Serial Flash (75MHz SPI Bus), Supply: 2.7-3.6V Digikey:  SOIC8 - M25P16-VMN6P-ND\n\nSOIC8 208 mil\n\n• W25Q16BVSSIG - 16Mbit (2Mbit x 8) Serial Flash (104MHz SPI Bus), Supply: 2.7-3.6V Digikey:  SOIC8 - W25Q16BVSSIG-ND"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3532,20 +3361,22 @@
 						)
 					)
 				)
+			)
+			(symbol "SPIFLASH_8PIN_4X4_1_1"
 				(pin bidirectional line
-					(at 15.24 -5.08 180)
+					(at 5.08 -10.16 90)
 					(length 2.54)
-					(name "VSS"
+					(name "CTRPAD"
 						(effects
 							(font
-								(size 1.524 1.524)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "PAD"
+					(number "9"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5122,7 +4953,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Diode_AKL:CD4148WT"
+		(symbol "PCM_Diode_AKL:CD4148WS"
 			(body_styles demorgan)
 			(pin_numbers
 				(hide yes)
@@ -5146,7 +4977,7 @@
 					)
 				)
 			)
-			(property "Value" "CD4148WT"
+			(property "Value" "CD4148WS"
 				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5156,7 +4987,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_Diode_SMD_AKL:D_0603_1608Metric"
+			(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5167,7 +4998,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5178,7 +5009,7 @@
 					)
 				)
 			)
-			(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5189,7 +5020,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode CD4148WT 4148 0603"
+			(property "ki_keywords" "diode CD4148WS 4148 0805"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5211,7 +5042,7 @@
 					)
 				)
 			)
-			(symbol "CD4148WT_0_1"
+			(symbol "CD4148WS_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -5249,7 +5080,7 @@
 					)
 				)
 			)
-			(symbol "CD4148WT_0_2"
+			(symbol "CD4148WS_0_2"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy 2.54 2.54)
@@ -5287,7 +5118,7 @@
 					)
 				)
 			)
-			(symbol "CD4148WT_1_1"
+			(symbol "CD4148WS_1_1"
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
@@ -5325,7 +5156,7 @@
 					)
 				)
 			)
-			(symbol "CD4148WT_1_2"
+			(symbol "CD4148WS_1_2"
 				(pin passive line
 					(at 2.54 2.54 180)
 					(length 0)
@@ -5830,6 +5661,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "RESET"
 		(exclude_from_sim no)
@@ -5854,6 +5800,12 @@
 		(uuid "91d94743-5505-448c-8665-47e33b936d4b")
 	)
 	(junction
+		(at 17.78 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05f02820-bf3e-4476-a11c-28d3338b081c")
+	)
+	(junction
 		(at 111.76 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5866,37 +5818,31 @@
 		(uuid "08d51209-2d28-4f98-9b96-886f6dddd1ba")
 	)
 	(junction
-		(at 17.78 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09f3e9c0-9427-49cc-8a1c-0ca244a23411")
-	)
-	(junction
-		(at 186.69 137.16)
+		(at 198.12 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "128c8c2d-bcd2-45c4-a04f-ca4ac96ba5c5")
 	)
 	(junction
-		(at 251.46 116.84)
+		(at 262.89 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "170f4334-cd0d-4ddb-a7e6-d1684a66ea48")
 	)
 	(junction
-		(at 251.46 73.66)
+		(at 262.89 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ba30195-305f-4b36-98c2-668ecc0f7583")
 	)
 	(junction
-		(at 186.69 95.25)
+		(at 198.12 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fe7a7e5-97ef-407a-8334-4f2f4bcd1bb3")
 	)
 	(junction
-		(at 229.87 73.66)
+		(at 241.3 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2206c66d-9d9d-4366-bb36-c43058b8706f")
@@ -5914,19 +5860,19 @@
 		(uuid "277ea386-5790-426a-ac2c-fd51fa389f84")
 	)
 	(junction
-		(at 203.2 85.09)
+		(at 214.63 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35036586-389d-4e27-9130-49c709e5986e")
 	)
 	(junction
-		(at 27.94 143.51)
+		(at 27.94 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "360b1131-fbed-4d9d-b0e3-c581bd8110ce")
+		(uuid "3d1c2894-3a28-4068-884a-82e3110b217b")
 	)
 	(junction
-		(at 246.38 106.68)
+		(at 257.81 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3eca82a0-41c5-4a5e-a6f6-98b31f186f79")
@@ -5938,43 +5884,43 @@
 		(uuid "3fd44aba-b646-4908-866d-81bd500b3e6e")
 	)
 	(junction
-		(at 224.79 85.09)
+		(at 236.22 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45035943-e199-4876-a9f1-c04c87c91efa")
 	)
 	(junction
-		(at 229.87 95.25)
+		(at 241.3 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c0e81f5-5098-4968-a4d0-21bc7dcc3982")
 	)
 	(junction
-		(at 208.28 95.25)
+		(at 219.71 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4df5da06-2c38-4c78-a707-35ea9da34a80")
 	)
 	(junction
-		(at 208.28 116.84)
+		(at 219.71 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fb6ad96-fe24-43fd-87af-9947916b98c9")
 	)
 	(junction
-		(at 246.38 148.59)
+		(at 257.81 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "529cd823-99c4-4678-b7f1-b2e1f2b6f109")
 	)
 	(junction
-		(at 224.79 128.27)
+		(at 236.22 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "541dd9e5-d83d-4971-9006-d84aac8e8aad")
 	)
 	(junction
-		(at 229.87 116.84)
+		(at 241.3 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "555ce352-e913-45e4-b192-4e71854f81c5")
@@ -5986,7 +5932,7 @@
 		(uuid "56c6c3db-0db5-4e05-9b28-5d5a92138dc6")
 	)
 	(junction
-		(at 186.69 116.84)
+		(at 198.12 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79009108-7f08-4e2a-a819-604547963d78")
@@ -5998,13 +5944,19 @@
 		(uuid "7cb5a67e-7fe0-4082-b9e0-e4f9975732af")
 	)
 	(junction
-		(at 246.38 128.27)
+		(at 27.94 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8326bbc4-f684-44a3-a8ba-c4655a7d3ce0")
+	)
+	(junction
+		(at 257.81 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83b956e1-66e8-430f-b2da-bd79628bb07c")
 	)
 	(junction
-		(at 246.38 85.09)
+		(at 257.81 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9640cb93-3b65-4e58-97bb-bf725bf87f1e")
@@ -6016,25 +5968,31 @@
 		(uuid "9f73a258-2323-4e3b-816e-28a53b388a75")
 	)
 	(junction
-		(at 224.79 106.68)
+		(at 236.22 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a003209c-98c7-4d2f-92ac-25aaaaa6beb0")
 	)
 	(junction
-		(at 224.79 148.59)
+		(at 57.15 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abb1f928-26a8-4c57-9654-589571074519")
+	)
+	(junction
+		(at 236.22 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b46b3e65-7c68-45eb-aee8-eb06840bb775")
 	)
 	(junction
-		(at 203.2 106.68)
+		(at 214.63 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5df610a-b5ef-429e-89e4-a88b15271a5f")
 	)
 	(junction
-		(at 208.28 73.66)
+		(at 219.71 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7844b4a-b47f-44fb-9d33-e0feb36d35ba")
@@ -6052,19 +6010,13 @@
 		(uuid "bdd5586f-0453-47d4-b5f6-4a436fe3fac4")
 	)
 	(junction
-		(at 27.94 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c9253086-0431-42e3-9e29-139a0bc07132")
-	)
-	(junction
-		(at 203.2 148.59)
+		(at 214.63 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc976fc7-2e73-4c02-a123-fc4f215bf81e")
 	)
 	(junction
-		(at 203.2 128.27)
+		(at 214.63 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4d5135c-3317-43fc-9055-768f27164236")
@@ -6076,34 +6028,28 @@
 		(uuid "dc835125-f750-408d-a931-a476e42527dd")
 	)
 	(junction
-		(at 186.69 73.66)
+		(at 198.12 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df738c65-326e-4012-a8a7-860d534deac8")
 	)
 	(junction
-		(at 96.52 53.34)
+		(at 100.33 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e476f19f-a81f-427b-99ec-f9d6286fec52")
 	)
 	(junction
-		(at 93.98 43.18)
+		(at 97.79 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4b0edf1-67c3-4812-890d-37e03aad70b6")
 	)
 	(junction
-		(at 251.46 95.25)
+		(at 262.89 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eaa2fca2-b806-4355-82a9-677e3699d040")
-	)
-	(junction
-		(at 57.15 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eda148cc-804d-4c0a-ab6a-624b1304fe81")
 	)
 	(junction
 		(at 229.87 22.86)
@@ -6111,9 +6057,81 @@
 		(color 0 0 0 0)
 		(uuid "fea6e8f1-b819-4108-9d8f-f10baaff4730")
 	)
+	(no_connect
+		(at 160.02 49.53)
+		(uuid "015364c3-ff45-4523-8430-6a95fae07eec")
+	)
+	(no_connect
+		(at 160.02 52.07)
+		(uuid "3c16030a-a7cd-47b8-8bef-7d39086229e0")
+	)
+	(no_connect
+		(at 39.37 149.86)
+		(uuid "4d49ee5c-baf4-4815-b409-b18590302699")
+	)
+	(no_connect
+		(at 115.57 185.42)
+		(uuid "80a252e7-271e-4690-b098-e51ab293aee9")
+	)
+	(no_connect
+		(at 115.57 152.4)
+		(uuid "81df312e-fda1-4f0d-98d5-20d9a933eb49")
+	)
+	(no_connect
+		(at 39.37 152.4)
+		(uuid "8287780b-a786-49b8-a1e0-f74c1163091a")
+	)
+	(no_connect
+		(at 39.37 157.48)
+		(uuid "9dbd4c95-77e0-4189-aa01-251699c8021b")
+	)
+	(no_connect
+		(at 115.57 165.1)
+		(uuid "a8c6dbef-19b5-4924-9a49-6e7f1615e3c2")
+	)
+	(no_connect
+		(at 115.57 142.24)
+		(uuid "a8f03be4-8efd-49a1-a579-0391ab91bf56")
+	)
+	(no_connect
+		(at 39.37 147.32)
+		(uuid "b30170da-2542-4ecb-9a98-a9b5946be384")
+	)
+	(no_connect
+		(at 115.57 162.56)
+		(uuid "b7e17023-a33e-4066-b046-0366f898fc1a")
+	)
+	(no_connect
+		(at 115.57 149.86)
+		(uuid "cb600afe-94a0-4ee2-8faa-40dee0c8605e")
+	)
+	(no_connect
+		(at 115.57 144.78)
+		(uuid "d54290f9-4360-45e8-9455-5047bc42f3e7")
+	)
+	(no_connect
+		(at 39.37 160.02)
+		(uuid "d6d48fb9-5847-49b6-9911-bc0c526cc690")
+	)
+	(no_connect
+		(at 39.37 154.94)
+		(uuid "db9490db-c7c1-4303-a238-006ea6abaea0")
+	)
+	(no_connect
+		(at 115.57 167.64)
+		(uuid "e1db5746-d30d-4408-be2a-53f653541780")
+	)
+	(no_connect
+		(at 54.61 41.91)
+		(uuid "e9957675-3460-4bab-93e7-1cfcc1f65eb1")
+	)
+	(no_connect
+		(at 115.57 182.88)
+		(uuid "f06667df-c313-484b-8a6f-82de78bd238a")
+	)
 	(wire
 		(pts
-			(xy 251.46 137.16) (xy 254 137.16)
+			(xy 262.89 129.54) (xy 265.43 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6143,7 +6161,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 82.55) (xy 203.2 85.09)
+			(xy 214.63 74.93) (xy 214.63 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6173,16 +6191,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 36.83) (xy 57.15 36.83)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "0a4b02bf-c8de-484c-8528-112cb790a90c")
-	)
-	(wire
-		(pts
 			(xy 240.03 30.48) (xy 257.81 30.48)
 		)
 		(stroke
@@ -6203,7 +6211,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 116.84) (xy 203.2 116.84)
+			(xy 210.82 109.22) (xy 214.63 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6223,7 +6231,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 143.51) (xy 25.4 142.24)
+			(xy 25.4 143.51) (xy 25.4 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6253,7 +6261,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 137.16) (xy 246.38 137.16)
+			(xy 254 129.54) (xy 257.81 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6263,7 +6271,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 125.73) (xy 267.97 128.27)
+			(xy 279.4 118.11) (xy 279.4 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6273,7 +6281,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 137.16) (xy 203.2 137.16)
+			(xy 210.82 129.54) (xy 214.63 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6303,17 +6311,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 36.83) (xy 16.51 36.83)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1a7bdaa4-3796-4bc1-b6f0-7ff6fa90ed19")
-	)
-	(wire
-		(pts
-			(xy 186.69 137.16) (xy 186.69 157.48)
+			(xy 198.12 129.54) (xy 198.12 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6323,7 +6321,17 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 128.27) (xy 267.97 128.27)
+			(xy 16.51 17.78) (xy 16.51 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6cba70-845d-46d7-8f62-1f2e79c9437d")
+	)
+	(wire
+		(pts
+			(xy 257.81 120.65) (xy 279.4 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6333,7 +6341,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 116.84) (xy 246.38 118.11)
+			(xy 257.81 109.22) (xy 257.81 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6353,26 +6361,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 36.83) (xy 16.51 29.21)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "1e5290f5-543f-4b34-ad7f-73a74547b796")
-	)
-	(wire
-		(pts
-			(xy 125.73 175.26) (xy 130.81 175.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "20e33a5a-a901-46cd-bf06-c32f9263c295")
-	)
-	(wire
-		(pts
 			(xy 229.87 33.02) (xy 229.87 38.1)
 		)
 		(stroke
@@ -6383,7 +6371,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 106.68) (xy 203.2 106.68)
+			(xy 193.04 99.06) (xy 214.63 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6393,7 +6381,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 137.16) (xy 267.97 138.43)
+			(xy 279.4 129.54) (xy 279.4 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6403,17 +6391,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 73.66) (xy 267.97 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23e21c05-4c82-4161-9ab6-23d863f004ec")
-	)
-	(wire
-		(pts
-			(xy 251.46 116.84) (xy 254 116.84)
+			(xy 262.89 109.22) (xy 265.43 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6423,7 +6401,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 43.18) (xy 93.98 38.1)
+			(xy 97.79 43.18) (xy 97.79 40.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -6433,7 +6411,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 73.66) (xy 251.46 95.25)
+			(xy 262.89 66.04) (xy 262.89 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6463,7 +6441,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 73.66) (xy 189.23 73.66)
+			(xy 198.12 66.04) (xy 200.66 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6473,7 +6451,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 116.84) (xy 229.87 137.16)
+			(xy 241.3 109.22) (xy 241.3 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6483,7 +6461,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 116.84) (xy 208.28 137.16)
+			(xy 219.71 109.22) (xy 219.71 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6493,17 +6471,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 177.8) (xy 130.81 177.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2a0701d4-2495-47fb-a4ba-1b453edbc449")
-	)
-	(wire
-		(pts
-			(xy 208.28 116.84) (xy 210.82 116.84)
+			(xy 219.71 109.22) (xy 222.25 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6543,7 +6511,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 95.25) (xy 246.38 96.52)
+			(xy 257.81 87.63) (xy 257.81 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6553,7 +6521,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 104.14) (xy 203.2 106.68)
+			(xy 214.63 96.52) (xy 214.63 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6573,7 +6541,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 95.25) (xy 267.97 96.52)
+			(xy 279.4 87.63) (xy 279.4 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6603,7 +6571,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 137.16) (xy 224.79 137.16)
+			(xy 232.41 129.54) (xy 236.22 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6623,7 +6591,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 82.55) (xy 246.38 85.09)
+			(xy 257.81 74.93) (xy 257.81 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6633,7 +6601,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 36.83) (xy 57.15 34.29)
+			(xy 57.15 34.29) (xy 57.15 36.83)
 		)
 		(stroke
 			(width 0.1524)
@@ -6643,7 +6611,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 106.68) (xy 246.38 106.68)
+			(xy 236.22 99.06) (xy 257.81 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6653,7 +6621,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 137.16) (xy 203.2 138.43)
+			(xy 214.63 129.54) (xy 214.63 130.81)
 		)
 		(stroke
 			(width 0)
@@ -6663,7 +6631,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 146.05) (xy 224.79 148.59)
+			(xy 236.22 138.43) (xy 236.22 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6673,7 +6641,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 73.66) (xy 229.87 95.25)
+			(xy 241.3 66.04) (xy 241.3 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6683,7 +6651,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 68.58) (xy 229.87 73.66)
+			(xy 241.3 60.96) (xy 241.3 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6703,7 +6671,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 95.25) (xy 232.41 95.25)
+			(xy 241.3 87.63) (xy 243.84 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6723,7 +6691,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 128.27) (xy 224.79 128.27)
+			(xy 214.63 120.65) (xy 236.22 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6733,17 +6701,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 36.83) (xy 26.67 36.83)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "544f51a3-a605-49be-9685-2d4459548933")
-	)
-	(wire
-		(pts
-			(xy 203.2 116.84) (xy 203.2 118.11)
+			(xy 214.63 109.22) (xy 214.63 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6753,7 +6711,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 148.59) (xy 203.2 148.59)
+			(xy 193.04 140.97) (xy 214.63 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6763,7 +6721,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 85.09) (xy 246.38 85.09)
+			(xy 236.22 77.47) (xy 257.81 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6813,7 +6771,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 168.91) (xy 203.2 168.91)
+			(xy 193.04 161.29) (xy 214.63 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6843,7 +6801,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 95.25) (xy 254 95.25)
+			(xy 262.89 87.63) (xy 265.43 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6873,23 +6831,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 106.68) (xy 224.79 106.68)
+			(xy 214.63 99.06) (xy 236.22 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "659864ee-b2ce-4f12-8453-218584cf0391")
-	)
-	(wire
-		(pts
-			(xy 115.57 121.92) (xy 118.11 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68b0843b-521b-4ba7-b47e-f4a90a12ebf1")
 	)
 	(wire
 		(pts
@@ -6903,7 +6851,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 85.09) (xy 267.97 85.09)
+			(xy 257.81 77.47) (xy 279.4 77.47)
 		)
 		(stroke
 			(width 0)
@@ -6913,7 +6861,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 104.14) (xy 246.38 106.68)
+			(xy 257.81 96.52) (xy 257.81 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6933,7 +6881,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 73.66) (xy 246.38 73.66)
+			(xy 254 66.04) (xy 257.81 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6963,7 +6911,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 33.02) (xy 93.98 30.48)
+			(xy 97.79 33.02) (xy 97.79 30.48)
 		)
 		(stroke
 			(width 0.1524)
@@ -6973,7 +6921,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 95.25) (xy 246.38 95.25)
+			(xy 254 87.63) (xy 257.81 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6983,7 +6931,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 95.25) (xy 208.28 116.84)
+			(xy 219.71 87.63) (xy 219.71 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6993,7 +6941,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 95.25) (xy 203.2 95.25)
+			(xy 210.82 87.63) (xy 214.63 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7013,7 +6961,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 116.84) (xy 186.69 137.16)
+			(xy 198.12 109.22) (xy 198.12 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7023,7 +6971,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 116.84) (xy 224.79 118.11)
+			(xy 236.22 109.22) (xy 236.22 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7053,7 +7001,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 73.66) (xy 186.69 95.25)
+			(xy 198.12 66.04) (xy 198.12 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7093,7 +7041,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 73.66) (xy 224.79 74.93)
+			(xy 236.22 66.04) (xy 236.22 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7113,7 +7061,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 146.05) (xy 267.97 148.59)
+			(xy 279.4 138.43) (xy 279.4 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7123,7 +7071,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 53.34) (xy 96.52 53.34)
+			(xy 97.79 53.34) (xy 100.33 53.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -7133,7 +7081,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 166.37) (xy 203.2 168.91)
+			(xy 214.63 158.75) (xy 214.63 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7143,23 +7091,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 95.25) (xy 210.82 95.25)
+			(xy 219.71 87.63) (xy 222.25 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81860f37-c268-4c75-959b-b021160162b0")
-	)
-	(wire
-		(pts
-			(xy 115.57 154.94) (xy 128.27 154.94)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "82a9e1c0-6cc8-4631-9e01-ab37268c983c")
 	)
 	(wire
 		(pts
@@ -7173,7 +7111,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 95.25) (xy 229.87 116.84)
+			(xy 241.3 87.63) (xy 241.3 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7183,7 +7121,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 116.84) (xy 267.97 118.11)
+			(xy 279.4 109.22) (xy 279.4 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7193,7 +7131,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 125.73) (xy 224.79 128.27)
+			(xy 236.22 118.11) (xy 236.22 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7203,7 +7141,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 68.58) (xy 208.28 73.66)
+			(xy 219.71 60.96) (xy 219.71 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7213,7 +7151,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 95.25) (xy 224.79 96.52)
+			(xy 236.22 87.63) (xy 236.22 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7233,7 +7171,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 68.58) (xy 186.69 73.66)
+			(xy 198.12 60.96) (xy 198.12 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7243,7 +7181,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 73.66) (xy 224.79 73.66)
+			(xy 232.41 66.04) (xy 236.22 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7273,7 +7211,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 116.84) (xy 189.23 116.84)
+			(xy 198.12 109.22) (xy 200.66 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7283,17 +7221,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 73.66) (xy 267.97 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95a74766-1617-4145-9108-4f29a0724ec8")
-	)
-	(wire
-		(pts
-			(xy 17.78 142.24) (xy 17.78 139.7)
+			(xy 17.78 147.32) (xy 17.78 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -7313,7 +7241,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 73.66) (xy 208.28 95.25)
+			(xy 97.79 33.02) (xy 97.79 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b8cc94-9083-4e7a-8b07-caac7a1c51cc")
+	)
+	(wire
+		(pts
+			(xy 219.71 66.04) (xy 219.71 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7323,17 +7261,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 93.98 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "997999cf-bdb6-4ba7-94c3-e0c3e311d64e")
-	)
-	(wire
-		(pts
-			(xy 246.38 146.05) (xy 246.38 148.59)
+			(xy 257.81 138.43) (xy 257.81 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7343,7 +7271,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 106.68) (xy 267.97 106.68)
+			(xy 257.81 99.06) (xy 279.4 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7363,7 +7291,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 116.84) (xy 267.97 116.84)
+			(xy 275.59 109.22) (xy 279.4 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7373,7 +7301,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 128.27) (xy 203.2 128.27)
+			(xy 193.04 120.65) (xy 214.63 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7383,7 +7311,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 85.09) (xy 203.2 85.09)
+			(xy 193.04 77.47) (xy 214.63 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7393,7 +7321,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 95.25) (xy 186.69 116.84)
+			(xy 198.12 87.63) (xy 198.12 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7413,7 +7341,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 116.84) (xy 224.79 116.84)
+			(xy 232.41 109.22) (xy 236.22 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7423,17 +7351,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 157.48) (xy 128.27 157.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9f7b499a-091e-4008-ab28-eaf46e130139")
-	)
-	(wire
-		(pts
-			(xy 224.79 128.27) (xy 246.38 128.27)
+			(xy 236.22 120.65) (xy 257.81 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7450,16 +7368,6 @@
 			(type solid)
 		)
 		(uuid "a26af4bc-679b-49f7-b4e9-dc2d0f24c4da")
-	)
-	(wire
-		(pts
-			(xy 93.98 20.32) (xy 93.98 17.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a29c6c02-7df8-481b-aed2-444491d870bd")
 	)
 	(wire
 		(pts
@@ -7493,7 +7401,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 137.16) (xy 210.82 137.16)
+			(xy 219.71 129.54) (xy 222.25 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7503,7 +7411,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 137.16) (xy 224.79 138.43)
+			(xy 236.22 129.54) (xy 236.22 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7543,17 +7451,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 93.98 43.18)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b02fe3ac-c28a-4c90-9689-d66709dcb715")
-	)
-	(wire
-		(pts
-			(xy 203.2 125.73) (xy 203.2 128.27)
+			(xy 214.63 118.11) (xy 214.63 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7573,7 +7471,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 116.84) (xy 232.41 116.84)
+			(xy 241.3 109.22) (xy 243.84 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7583,7 +7481,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 95.25) (xy 224.79 95.25)
+			(xy 24.13 36.83) (xy 26.67 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d5e4eb-f871-4dcf-a4f0-e1e7d2c69c40")
+	)
+	(wire
+		(pts
+			(xy 232.41 87.63) (xy 236.22 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7603,7 +7511,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 73.66) (xy 203.2 74.93)
+			(xy 214.63 66.04) (xy 214.63 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7613,7 +7521,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 137.16) (xy 246.38 138.43)
+			(xy 257.81 129.54) (xy 257.81 130.81)
 		)
 		(stroke
 			(width 0)
@@ -7623,7 +7531,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 43.18) (xy 96.52 43.18)
+			(xy 97.79 43.18) (xy 100.33 43.18)
 		)
 		(stroke
 			(width 0)
@@ -7643,17 +7551,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 143.51) (xy 27.94 142.24)
+			(xy 54.61 36.83) (xy 57.15 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd644682-6416-4f84-82cd-30863a5e91c9")
+		(uuid "bc10b41f-a883-4b79-8558-cb08def49aeb")
 	)
 	(wire
 		(pts
-			(xy 203.2 95.25) (xy 203.2 96.52)
+			(xy 214.63 87.63) (xy 214.63 88.9)
 		)
 		(stroke
 			(width 0)
@@ -7663,7 +7571,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 116.84) (xy 251.46 137.16)
+			(xy 262.89 109.22) (xy 262.89 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7683,7 +7591,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 53.34) (xy 96.52 58.42)
+			(xy 100.33 53.34) (xy 100.33 58.42)
 		)
 		(stroke
 			(width 0.1524)
@@ -7703,7 +7611,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 73.66) (xy 203.2 73.66)
+			(xy 210.82 66.04) (xy 214.63 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7713,13 +7621,23 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 148.59) (xy 267.97 148.59)
+			(xy 257.81 140.97) (xy 279.4 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c256a18b-1109-41e3-a760-ce6b41f98065")
+	)
+	(wire
+		(pts
+			(xy 27.94 142.24) (xy 27.94 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2942df3-8a34-4082-8bc5-8aef589b84df")
 	)
 	(wire
 		(pts
@@ -7733,23 +7651,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 116.84) (xy 246.38 116.84)
+			(xy 254 109.22) (xy 257.81 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c2f145fe-e4c8-4609-9cb4-27a7f3161612")
-	)
-	(wire
-		(pts
-			(xy 115.57 134.62) (xy 125.73 134.62)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c67a42ce-4277-4241-819e-fc78fbbf2b59")
 	)
 	(wire
 		(pts
@@ -7760,6 +7668,16 @@
 			(type solid)
 		)
 		(uuid "c7b3e156-7c06-4be8-b27f-af1c8e6519ff")
+	)
+	(wire
+		(pts
+			(xy 57.15 36.83) (xy 57.15 44.45)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c800dd81-ee98-4fc4-9117-138d1db7d77d")
 	)
 	(wire
 		(pts
@@ -7793,7 +7711,17 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 95.25) (xy 189.23 95.25)
+			(xy 92.71 43.18) (xy 97.79 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd112d3-250b-49ac-ab2d-ecd5a1b4b4a5")
+	)
+	(wire
+		(pts
+			(xy 198.12 87.63) (xy 200.66 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7813,27 +7741,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 160.02) (xy 128.27 160.02)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ce9bfbfd-ee34-4682-83f0-5452a9ab60dd")
-	)
-	(wire
-		(pts
-			(xy 115.57 119.38) (xy 118.11 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d23a6395-4851-478f-af3e-925a8f65e13a")
-	)
-	(wire
-		(pts
-			(xy 267.97 104.14) (xy 267.97 106.68)
+			(xy 279.4 96.52) (xy 279.4 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7843,7 +7751,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 137.16) (xy 267.97 137.16)
+			(xy 275.59 129.54) (xy 279.4 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7883,17 +7791,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 44.45) (xy 57.15 36.83)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "d7d9efc9-96b4-4fbf-b093-1bebed4507d7")
-	)
-	(wire
-		(pts
-			(xy 264.16 95.25) (xy 267.97 95.25)
+			(xy 275.59 87.63) (xy 279.4 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7903,7 +7801,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 125.73) (xy 246.38 128.27)
+			(xy 257.81 118.11) (xy 257.81 120.65)
 		)
 		(stroke
 			(width 0)
@@ -7913,7 +7811,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 157.48) (xy 203.2 158.75)
+			(xy 214.63 149.86) (xy 214.63 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7933,7 +7831,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 148.59) (xy 224.79 148.59)
+			(xy 214.63 140.97) (xy 236.22 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7973,7 +7871,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 85.09) (xy 224.79 85.09)
+			(xy 16.51 29.21) (xy 16.51 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df564539-185a-4d7a-a7d8-97b1d0e159b3")
+	)
+	(wire
+		(pts
+			(xy 214.63 77.47) (xy 236.22 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7983,17 +7891,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 82.55) (xy 267.97 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2a15e66-2c75-4dfa-9f95-184ad4cb1be2")
-	)
-	(wire
-		(pts
-			(xy 186.69 157.48) (xy 189.23 157.48)
+			(xy 198.12 149.86) (xy 200.66 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8013,7 +7911,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 82.55) (xy 224.79 85.09)
+			(xy 236.22 74.93) (xy 236.22 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8023,7 +7921,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 146.05) (xy 203.2 148.59)
+			(xy 214.63 138.43) (xy 214.63 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8033,7 +7931,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 73.66) (xy 210.82 73.66)
+			(xy 219.71 66.04) (xy 222.25 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8043,7 +7941,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 148.59) (xy 246.38 148.59)
+			(xy 236.22 140.97) (xy 257.81 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8053,7 +7951,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 73.66) (xy 254 73.66)
+			(xy 262.89 66.04) (xy 265.43 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8073,7 +7971,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 157.48) (xy 203.2 157.48)
+			(xy 210.82 149.86) (xy 214.63 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8083,7 +7981,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 73.66) (xy 232.41 73.66)
+			(xy 241.3 66.04) (xy 243.84 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8093,7 +7991,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 68.58) (xy 251.46 73.66)
+			(xy 262.89 60.96) (xy 262.89 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8123,16 +8021,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 44.45) (xy 114.3 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f38a1ac5-59a0-436a-91f2-68db0747b5be")
-	)
-	(wire
-		(pts
 			(xy 160.02 39.37) (xy 163.83 39.37)
 		)
 		(stroke
@@ -8143,17 +8031,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 38.1) (xy 26.67 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f744daef-64c7-4daa-91bc-9482abbe938e")
-	)
-	(wire
-		(pts
-			(xy 251.46 95.25) (xy 251.46 116.84)
+			(xy 262.89 87.63) (xy 262.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8163,7 +8041,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 104.14) (xy 224.79 106.68)
+			(xy 236.22 96.52) (xy 236.22 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8183,7 +8061,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 73.66) (xy 246.38 74.93)
+			(xy 257.81 66.04) (xy 257.81 67.31)
 		)
 		(stroke
 			(width 0)
@@ -8193,7 +8071,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 137.16) (xy 232.41 137.16)
+			(xy 241.3 129.54) (xy 243.84 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8223,7 +8101,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 137.16) (xy 189.23 137.16)
+			(xy 198.12 129.54) (xy 200.66 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8262,7 +8140,7 @@
 		(uuid "0ee164ab-0042-4b2f-a04b-2eee46da30a7")
 	)
 	(label "ROW2"
-		(at 181.61 168.91 180)
+		(at 193.04 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8302,7 +8180,7 @@
 		(uuid "2e6fa642-7e4f-4132-b420-38c54b19449a")
 	)
 	(label "D+"
-		(at 128.27 177.8 0)
+		(at 125.73 177.8 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8312,7 +8190,7 @@
 		(uuid "2f927570-8dc5-454a-8b1b-b916147f52ea")
 	)
 	(label "COL1"
-		(at 186.69 68.58 90)
+		(at 198.12 60.96 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8332,7 +8210,7 @@
 		(uuid "44df2b5f-428c-4e51-888b-0084c2cb3954")
 	)
 	(label "ROW3"
-		(at 118.11 119.38 0)
+		(at 115.57 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8352,7 +8230,7 @@
 		(uuid "460cb1ef-9209-4d11-8471-b6131f075e12")
 	)
 	(label "MISO"
-		(at 120.65 160.02 0)
+		(at 115.57 160.02 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8360,6 +8238,16 @@
 			(justify left bottom)
 		)
 		(uuid "5139095e-3f64-4e56-a988-e43785d3959d")
+	)
+	(label "USB_BOOT"
+		(at 115.57 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5abda964-14d8-4a18-ae2a-8ee24f42d9dd")
 	)
 	(label "SDA"
 		(at 118.11 137.16 0)
@@ -8412,7 +8300,7 @@
 		(uuid "6f475325-5fda-418a-addc-fba514317752")
 	)
 	(label "SCLK"
-		(at 120.65 154.94 0)
+		(at 115.57 154.94 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8432,7 +8320,7 @@
 		(uuid "857f2e40-4f62-41da-9d87-ea7a2d7b4b30")
 	)
 	(label "ROW2"
-		(at 181.61 106.68 180)
+		(at 193.04 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8442,7 +8330,7 @@
 		(uuid "8776c598-d3d2-45d9-a965-537ee580281d")
 	)
 	(label "COL3"
-		(at 229.87 68.58 90)
+		(at 241.3 60.96 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8462,7 +8350,7 @@
 		(uuid "8a14380b-f154-4a4b-9f00-66789271d8ed")
 	)
 	(label "ROW2"
-		(at 181.61 128.27 180)
+		(at 193.04 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8492,7 +8380,7 @@
 		(uuid "bd5bab77-2c70-4991-b79a-47141599af3b")
 	)
 	(label "MOSI"
-		(at 120.65 157.48 0)
+		(at 115.57 157.48 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8502,7 +8390,7 @@
 		(uuid "befe9a86-cf7e-40c3-877c-4b7ea33f48dd")
 	)
 	(label "ROW2"
-		(at 181.61 148.59 180)
+		(at 193.04 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8522,7 +8410,7 @@
 		(uuid "c7f4ab05-1833-455f-912d-fee8d366fb42")
 	)
 	(label "ROW4"
-		(at 118.11 121.92 0)
+		(at 115.57 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8592,7 +8480,7 @@
 		(uuid "e24e806d-140f-4e6a-88d1-994ce1207c69")
 	)
 	(label "D-"
-		(at 128.27 175.26 0)
+		(at 125.73 175.26 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8602,7 +8490,7 @@
 		(uuid "e372a3f1-fbe0-40c1-887b-c653acff0e49")
 	)
 	(label "ROW1"
-		(at 181.61 85.09 180)
+		(at 193.04 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8611,18 +8499,8 @@
 		)
 		(uuid "ec65c068-eb74-497e-af34-098dcbff2d7e")
 	)
-	(label "USBBOOT"
-		(at 118.11 134.62 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed2ffc66-e445-460f-bd70-3327957027bf")
-	)
 	(label "QSPI_CS"
-		(at 93.98 20.32 0)
+		(at 97.79 20.32 90)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8632,7 +8510,7 @@
 		(uuid "ed6fe7a9-d256-44c3-931e-4d182a24ec0c")
 	)
 	(label "COL2"
-		(at 208.28 68.58 90)
+		(at 219.71 60.96 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8641,13 +8519,13 @@
 		)
 		(uuid "ef17ecb7-e7ac-4b48-8f19-9b97e6e89b8e")
 	)
-	(label "USBBOOT"
-		(at 88.9 43.18 90)
+	(label "USB_BOOT"
+		(at 92.71 43.18 180)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ef2ed8a4-f83d-46db-91a2-8f8b3a216418")
 	)
@@ -8682,7 +8560,7 @@
 		(uuid "f3ba6b64-5b69-48c0-ba0b-a8b10d9b3b2d")
 	)
 	(label "COL4"
-		(at 251.46 68.58 90)
+		(at 262.89 60.96 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8780,8 +8658,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 203.2 78.74 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 214.63 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8792,7 +8670,7 @@
 		(fields_autoplaced yes)
 		(uuid "03480cf1-1aed-422f-8f61-ff7d39930d97")
 		(property "Reference" "D1"
-			(at 205.74 77.4699 90)
+			(at 217.17 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8802,8 +8680,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 205.74 80.0099 90)
+		(property "Value" "TS4148"
+			(at 217.17 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8814,7 +8692,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 203.2 78.74 0)
+			(at 214.63 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8824,8 +8702,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 203.2 78.74 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 214.63 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8835,8 +8713,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 203.2 78.74 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 214.63 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8894,8 +8772,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_Abracon_ABM3-2Pin_5.0x3.2mm_HandSoldering"
-			(at 27.94 139.7 0)
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+			(at 24.892 139.446 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8927,7 +8805,7 @@
 				)
 			)
 		)
-		(pin "3"
+		(pin "2"
 			(uuid "448c3427-2b68-4739-a67d-bbf7f9bb060d")
 		)
 		(pin "1"
@@ -8977,7 +8855,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 168.91 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -9027,7 +8905,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 215.9 137.16 0)
+		(at 227.33 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9038,7 +8916,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d8f8b6e-0f1b-417d-a2f0-9bb237508db4")
 		(property "Reference" "SW14"
-			(at 215.9 129.54 0)
+			(at 227.33 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9048,7 +8926,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 215.9 132.08 0)
+			(at 227.33 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9058,7 +8936,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 215.9 132.08 0)
+			(at 227.33 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9069,7 +8947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 132.08 0)
+			(at 227.33 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9080,7 +8958,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 215.9 137.16 0)
+			(at 227.33 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9107,7 +8985,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 194.31 73.66 0)
+		(at 205.74 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9118,7 +8996,7 @@
 		(fields_autoplaced yes)
 		(uuid "12bb0801-cfb2-44eb-91e3-44dd1ee6772f")
 		(property "Reference" "SW1"
-			(at 194.31 66.04 0)
+			(at 205.74 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9128,7 +9006,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 194.31 68.58 0)
+			(at 205.74 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9138,7 +9016,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 194.31 68.58 0)
+			(at 205.74 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9149,7 +9027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 68.58 0)
+			(at 205.74 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9160,7 +9038,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 194.31 73.66 0)
+			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9342,6 +9220,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 278.13 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16cc7005-20b5-4e6a-8aa3-5aff25eff3d3")
+		(property "Reference" "#PWR01"
+			(at 278.13 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.13 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "335eaf8d-82b2-4c96-a840-9ec5eb76d668")
+		)
+		(instances
+			(project "MECHANICAL NUMPAD PCB WITH RP2040"
+				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC0603_NO")
 		(at 62.23 88.9 0)
 		(unit 1)
@@ -9372,7 +9328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 62.23 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -9658,8 +9614,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit KB2040-eagle-import:DIODESOD-323F")
-		(at 93.98 35.56 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 97.79 36.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9669,7 +9625,7 @@
 		(dnp no)
 		(uuid "1e42cae6-8488-4a84-9277-9894a8c22d7d")
 		(property "Reference" "D23"
-			(at 96.52 33.02 0)
+			(at 100.33 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9679,8 +9635,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NSR0320"
-			(at 90.17 33.02 0)
+		(property "Value" "TS4148"
+			(at 93.98 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9691,7 +9647,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 93.98 35.56 0)
+			(at 97.79 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9701,8 +9657,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 93.98 35.56 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 97.79 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9712,8 +9668,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 93.98 35.56 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 97.79 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9723,10 +9679,10 @@
 				)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "65fe2a22-a179-4efe-a32e-f368a1a3e950")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "2fa356ed-153d-45ab-98a3-a00d850df28e")
 		)
 		(instances
@@ -9817,8 +9773,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 246.38 100.33 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 257.81 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9829,7 +9785,7 @@
 		(fields_autoplaced yes)
 		(uuid "20111c50-09b4-47b0-ad47-fc946b3e26e2")
 		(property "Reference" "D7"
-			(at 248.92 99.0599 90)
+			(at 260.35 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9839,8 +9795,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 248.92 101.5999 90)
+		(property "Value" "TS4148"
+			(at 260.35 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9851,7 +9807,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 246.38 100.33 0)
+			(at 257.81 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9861,8 +9817,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 246.38 100.33 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 257.81 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9872,8 +9828,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 246.38 100.33 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 257.81 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,8 +9855,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 224.79 78.74 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 236.22 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9911,7 +9867,7 @@
 		(fields_autoplaced yes)
 		(uuid "207fb32d-b5d2-4dc1-8b64-3d717cfa88e0")
 		(property "Reference" "D2"
-			(at 227.33 77.4699 90)
+			(at 238.76 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9921,8 +9877,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 227.33 80.0099 90)
+		(property "Value" "TS4148"
+			(at 238.76 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9933,7 +9889,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 224.79 78.74 0)
+			(at 236.22 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9943,8 +9899,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 224.79 78.74 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 236.22 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9954,8 +9910,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 224.79 78.74 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 236.22 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10479,7 +10435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.37 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10641,7 +10597,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.65 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -10691,7 +10647,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 237.49 116.84 0)
+		(at 248.92 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10702,7 +10658,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b6520cb-5942-4380-9536-66750d96ddf0")
 		(property "Reference" "SW11"
-			(at 237.49 109.22 0)
+			(at 248.92 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10712,7 +10668,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 237.49 111.76 0)
+			(at 248.92 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10722,7 +10678,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 237.49 111.76 0)
+			(at 248.92 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10733,7 +10689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 111.76 0)
+			(at 248.92 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10744,7 +10700,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 237.49 116.84 0)
+			(at 248.92 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10800,7 +10756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.01 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11006,7 +10962,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 237.49 73.66 0)
+		(at 248.92 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11017,7 +10973,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ff51ace-a8a8-4f3a-9dda-58f0ee7c1210")
 		(property "Reference" "SW3"
-			(at 237.49 66.04 0)
+			(at 248.92 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11027,7 +10983,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 237.49 68.58 0)
+			(at 248.92 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11037,7 +10993,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 237.49 68.58 0)
+			(at 248.92 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11048,7 +11004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 68.58 0)
+			(at 248.92 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11059,7 +11015,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 237.49 73.66 0)
+			(at 248.92 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11086,7 +11042,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 237.49 137.16 0)
+		(at 248.92 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11097,7 +11053,7 @@
 		(fields_autoplaced yes)
 		(uuid "305266aa-8ae4-450c-b9eb-3f7297e452de")
 		(property "Reference" "SW15"
-			(at 237.49 129.54 0)
+			(at 248.92 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11107,7 +11063,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 237.49 132.08 0)
+			(at 248.92 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11117,7 +11073,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 237.49 132.08 0)
+			(at 248.92 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11128,7 +11084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 132.08 0)
+			(at 248.92 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11139,7 +11095,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 237.49 137.16 0)
+			(at 248.92 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11283,7 +11239,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 46.99 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11332,6 +11288,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 137.16 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "335f98ef-45f5-454b-8719-04dca0cf82e4")
+		(property "Reference" "#PWR02"
+			(at 137.16 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67284d85-f338-4be8-9993-ab582e1a71a8")
+		)
+		(instances
+			(project "MECHANICAL NUMPAD PCB WITH RP2040"
+				(path "/5130ebb2-678e-4db8-86a3-793dd18a1b69"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:RESISTOR0805_NOOUTLINE")
 		(at 16.51 24.13 270)
 		(unit 1)
@@ -11366,7 +11400,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0805_2012Metric"
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 16.51 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -11416,7 +11450,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 259.08 95.25 0)
+		(at 270.51 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11427,7 +11461,7 @@
 		(fields_autoplaced yes)
 		(uuid "3be3ca95-9162-4a8b-b71f-4d8e1d3c6442")
 		(property "Reference" "SW8"
-			(at 259.08 87.63 0)
+			(at 270.51 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11437,7 +11471,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 259.08 90.17 0)
+			(at 270.51 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11447,7 +11481,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 259.08 90.17 0)
+			(at 270.51 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11458,7 +11492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 90.17 0)
+			(at 270.51 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11469,7 +11503,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 259.08 95.25 0)
+			(at 270.51 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11495,8 +11529,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 224.79 142.24 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 236.22 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11507,7 +11541,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e32b373-1bce-4a2e-bbb7-edf7d2e5aa69")
 		(property "Reference" "D14"
-			(at 227.33 140.9699 90)
+			(at 238.76 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11517,8 +11551,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 227.33 143.5099 90)
+		(property "Value" "TS4148"
+			(at 238.76 135.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11529,7 +11563,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 224.79 142.24 0)
+			(at 236.22 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11539,8 +11573,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 224.79 142.24 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 236.22 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11550,8 +11584,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 224.79 142.24 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 236.22 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11578,7 +11612,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 237.49 95.25 0)
+		(at 248.92 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11589,7 +11623,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fbe4588-950d-4410-8d40-4a9aac4eb9cf")
 		(property "Reference" "SW7"
-			(at 237.49 87.63 0)
+			(at 248.92 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11599,7 +11633,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 237.49 90.17 0)
+			(at 248.92 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11609,7 +11643,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 237.49 90.17 0)
+			(at 248.92 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11620,7 +11654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 90.17 0)
+			(at 248.92 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11631,7 +11665,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 237.49 95.25 0)
+			(at 248.92 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12082,7 +12116,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.95 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -12132,7 +12166,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 215.9 73.66 0)
+		(at 227.33 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12143,7 +12177,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e7acfdf-881e-4dd5-84d6-7a242472a1d7")
 		(property "Reference" "SW2"
-			(at 215.9 66.04 0)
+			(at 227.33 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12153,7 +12187,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 215.9 68.58 0)
+			(at 227.33 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12163,7 +12197,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 215.9 68.58 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12174,7 +12208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 68.58 0)
+			(at 227.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12185,7 +12219,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 215.9 73.66 0)
+			(at 227.33 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12290,8 +12324,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 267.97 142.24 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 279.4 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12302,7 +12336,7 @@
 		(fields_autoplaced yes)
 		(uuid "5444944b-045c-4f4a-89cc-af65dad9c1f4")
 		(property "Reference" "D16"
-			(at 270.51 140.9699 90)
+			(at 281.94 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12312,8 +12346,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 270.51 143.5099 90)
+		(property "Value" "TS4148"
+			(at 281.94 135.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12324,7 +12358,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 267.97 142.24 0)
+			(at 279.4 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12334,8 +12368,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 267.97 142.24 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 279.4 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12345,8 +12379,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 267.97 142.24 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 279.4 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12451,7 +12485,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0402NO")
-		(at 22.86 142.24 90)
+		(at 22.86 147.32 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12461,7 +12495,7 @@
 		(dnp no)
 		(uuid "56ee894a-b28a-4a6f-9009-07cc00124e05")
 		(property "Reference" "C20"
-			(at 21.61 144.53 90)
+			(at 21.61 149.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12471,7 +12505,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 21.61 139.94 90)
+			(at 21.61 145.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12480,8 +12514,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 22.86 142.24 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 22.86 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12492,7 +12526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 142.24 0)
+			(at 22.86 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12503,7 +12537,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 142.24 0)
+			(at 22.86 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12559,7 +12593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0805_2012Metric"
+		(property "Footprint" "PCM_SparkFun-LED:LED_0603_1608Metric_Green"
 			(at 74.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12592,10 +12626,10 @@
 				)
 			)
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "133b2f81-221b-40e8-a8e7-0170693302d9")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "be2fb7b2-22df-4694-a6c0-0e52465eb2bb")
 		)
 		(instances
@@ -12766,7 +12800,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 194.31 116.84 0)
+		(at 205.74 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12777,7 +12811,7 @@
 		(fields_autoplaced yes)
 		(uuid "61aa0f49-47b7-4aa8-a880-624a5ca1d16e")
 		(property "Reference" "SW9"
-			(at 194.31 109.22 0)
+			(at 205.74 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12787,7 +12821,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 194.31 111.76 0)
+			(at 205.74 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12797,7 +12831,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 194.31 111.76 0)
+			(at 205.74 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12808,7 +12842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 111.76 0)
+			(at 205.74 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12819,7 +12853,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 194.31 116.84 0)
+			(at 205.74 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12846,7 +12880,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:SWITCH_TACT_SMT4.6X2.8")
-		(at 96.52 48.26 270)
+		(at 100.33 48.26 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12856,7 +12890,7 @@
 		(dnp no)
 		(uuid "63aaebc3-3051-4c8e-8127-45c6e5001ecb")
 		(property "Reference" "SW22"
-			(at 97.536 52.832 90)
+			(at 101.346 52.832 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12867,7 +12901,7 @@
 			)
 		)
 		(property "Value" "SKRAAKE010"
-			(at 91.44 44.196 0)
+			(at 95.25 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12878,7 +12912,7 @@
 			)
 		)
 		(property "Footprint" "JH_FOOTPRINTS:SW4_SKRAAKE010_ALPS"
-			(at 104.902 48.514 0)
+			(at 108.712 48.514 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12889,7 +12923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 48.26 0)
+			(at 100.33 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12900,7 +12934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 48.26 0)
+			(at 100.33 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13010,8 +13044,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 267.97 121.92 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 279.4 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13022,7 +13056,7 @@
 		(fields_autoplaced yes)
 		(uuid "68ca165d-3cf1-4f7c-b42e-d2307a6b62f8")
 		(property "Reference" "D12"
-			(at 270.51 120.6499 90)
+			(at 281.94 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13032,8 +13066,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 270.51 123.1899 90)
+		(property "Value" "TS4148"
+			(at 281.94 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13044,7 +13078,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 267.97 121.92 0)
+			(at 279.4 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13054,8 +13088,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 267.97 121.92 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 279.4 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13065,8 +13099,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 267.97 121.92 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 279.4 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13122,7 +13156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 87.63 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13405,8 +13439,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 224.79 121.92 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 236.22 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13417,7 +13451,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cb72615-e71a-42db-b8c9-7d889edf5bdf")
 		(property "Reference" "D10"
-			(at 227.33 120.6499 90)
+			(at 238.76 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13427,8 +13461,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 227.33 123.1899 90)
+		(property "Value" "TS4148"
+			(at 238.76 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13439,7 +13473,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 224.79 121.92 0)
+			(at 236.22 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13449,8 +13483,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 224.79 121.92 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 236.22 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13460,8 +13494,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 224.79 121.92 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 236.22 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13517,7 +13551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 26.67 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13596,7 +13630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 57.15 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13630,7 +13664,7 @@
 			)
 		)
 		(property "REV" "B"
-			(at 57.15 49.53 0)
+			(at 55.88 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13656,7 +13690,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 194.31 157.48 0)
+		(at 205.74 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13667,7 +13701,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b103f50-1970-4d8a-b518-fdba566f5d7b")
 		(property "Reference" "SW17"
-			(at 194.31 149.86 0)
+			(at 205.74 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13677,7 +13711,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 194.31 152.4 0)
+			(at 205.74 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13687,7 +13721,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 194.31 152.4 0)
+			(at 205.74 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13698,7 +13732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 152.4 0)
+			(at 205.74 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13709,7 +13743,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 194.31 157.48 0)
+			(at 205.74 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13968,8 +14002,8 @@
 		(pin "41"
 			(uuid "511cccbd-72af-4241-8a55-feda056b6533")
 		)
-		(pin "P$1"
-			(uuid "bc573594-fab9-427c-b418-41207503d305")
+		(pin "57"
+			(uuid "439cf7fa-b7fe-46c9-a65e-d33a947ac067")
 		)
 		(instances
 			(project "MECHANICAL NUMPAD PCB WITH RP2040"
@@ -14059,8 +14093,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 246.38 121.92 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 257.81 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14071,7 +14105,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f7a7eca-d4ae-4f5d-b7a5-50308a1db3be")
 		(property "Reference" "D11"
-			(at 248.92 120.6499 90)
+			(at 260.35 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14081,8 +14115,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 248.92 123.1899 90)
+		(property "Value" "TS4148"
+			(at 260.35 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14093,7 +14127,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 246.38 121.92 0)
+			(at 257.81 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14103,8 +14137,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 246.38 121.92 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 257.81 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14114,8 +14148,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 246.38 121.92 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 257.81 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14141,8 +14175,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 203.2 142.24 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 214.63 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14153,7 +14187,7 @@
 		(fields_autoplaced yes)
 		(uuid "9634d8b3-3e39-4cb1-9864-ba8f8ff0be79")
 		(property "Reference" "D13"
-			(at 205.74 140.9699 90)
+			(at 217.17 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14163,8 +14197,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 205.74 143.5099 90)
+		(property "Value" "TS4148"
+			(at 217.17 135.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14175,7 +14209,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 203.2 142.24 0)
+			(at 214.63 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14185,8 +14219,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 203.2 142.24 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 214.63 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14196,8 +14230,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 203.2 142.24 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 214.63 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14302,7 +14336,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 194.31 137.16 0)
+		(at 205.74 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14313,7 +14347,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a71c796-4194-468a-bbb5-23d3f35d1e74")
 		(property "Reference" "SW13"
-			(at 194.31 129.54 0)
+			(at 205.74 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14323,7 +14357,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 194.31 132.08 0)
+			(at 205.74 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14333,7 +14367,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 194.31 132.08 0)
+			(at 205.74 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14344,7 +14378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 132.08 0)
+			(at 205.74 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14355,7 +14389,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 194.31 137.16 0)
+			(at 205.74 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14411,7 +14445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 54.61 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -14663,8 +14697,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 203.2 162.56 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 214.63 154.94 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14675,7 +14709,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2feb8ab-2202-4cb6-8f84-cba6c2495869")
 		(property "Reference" "D17"
-			(at 205.74 161.2899 90)
+			(at 217.17 153.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14685,8 +14719,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 205.74 163.8299 90)
+		(property "Value" "TS4148"
+			(at 217.17 156.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14697,7 +14731,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 203.2 162.56 0)
+			(at 214.63 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14707,8 +14741,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 203.2 162.56 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 214.63 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14718,8 +14752,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 203.2 162.56 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 214.63 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14745,8 +14779,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 224.79 100.33 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 236.22 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14757,7 +14791,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3180ea3-5793-4766-9533-bbcfa181870f")
 		(property "Reference" "D6"
-			(at 227.33 99.0599 90)
+			(at 238.76 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14767,8 +14801,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 227.33 101.5999 90)
+		(property "Value" "TS4148"
+			(at 238.76 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14779,7 +14813,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 224.79 100.33 0)
+			(at 236.22 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14789,8 +14823,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 224.79 100.33 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 236.22 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14800,8 +14834,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 224.79 100.33 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 236.22 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15018,7 +15052,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 21.59 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -15175,7 +15209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 110.49 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -15258,7 +15292,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 224.79 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -15307,8 +15341,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 267.97 78.74 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 279.4 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15319,7 +15353,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae753aeb-1b16-4301-a44b-fb3bbf2514f5")
 		(property "Reference" "D4"
-			(at 270.51 77.4699 90)
+			(at 281.94 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15329,8 +15363,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 270.51 80.0099 90)
+		(property "Value" "TS4148"
+			(at 281.94 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15341,7 +15375,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 267.97 78.74 0)
+			(at 279.4 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15351,8 +15385,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 267.97 78.74 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 279.4 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15362,8 +15396,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 267.97 78.74 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 279.4 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15558,7 +15592,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:supply1_371_GND")
-		(at 96.52 60.96 0)
+		(at 100.33 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15568,7 +15602,7 @@
 		(dnp no)
 		(uuid "b17a61ee-b3a1-4d42-b8eb-56f3aa353007")
 		(property "Reference" "#GND16"
-			(at 96.52 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15579,7 +15613,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 63.5 0)
+			(at 97.79 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15590,7 +15624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15601,7 +15635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15612,7 +15646,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 96.52 60.96 0)
+			(at 100.33 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15669,7 +15703,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 74.93 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -15718,7 +15752,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit KB2040-eagle-import:DIODESOD-323F")
+		(lib_id "PCM_Diode_AKL:CD4148WS")
 		(at 20.32 36.83 0)
 		(unit 1)
 		(body_style 1)
@@ -15739,7 +15773,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "NSR0320"
+		(property "Value" "TS4148"
 			(at 17.78 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15761,7 +15795,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
 			(at 20.32 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -15772,7 +15806,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
 			(at 20.32 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -15783,10 +15817,10 @@
 				)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "0dc4b52d-44f0-40ef-a64b-dc4ac8fb867d")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "5fb38d8b-f990-4a89-8c8f-a51e6545fc02")
 		)
 		(instances
@@ -15800,7 +15834,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:RESISTOR_0402NO")
-		(at 93.98 25.4 270)
+		(at 97.79 25.4 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15810,7 +15844,7 @@
 		(dnp no)
 		(uuid "b6b8826d-0a73-4d9b-bf0d-0e522ab41f5c")
 		(property "Reference" "R11"
-			(at 96.52 25.4 0)
+			(at 100.33 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15820,7 +15854,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 93.98 25.4 0)
+			(at 97.79 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15831,8 +15865,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 93.98 25.4 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 97.79 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15843,7 +15877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 25.4 0)
+			(at 97.79 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15854,7 +15888,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 93.98 25.4 0)
+			(at 97.79 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15880,8 +15914,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 203.2 121.92 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 214.63 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15892,7 +15926,7 @@
 		(fields_autoplaced yes)
 		(uuid "b72f867a-1350-49d6-b444-5c2ad74af8cc")
 		(property "Reference" "D9"
-			(at 205.74 120.6499 90)
+			(at 217.17 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15902,8 +15936,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 205.74 123.1899 90)
+		(property "Value" "TS4148"
+			(at 217.17 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15914,7 +15948,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 203.2 121.92 0)
+			(at 214.63 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15924,8 +15958,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 203.2 121.92 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 214.63 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15935,8 +15969,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 203.2 121.92 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 214.63 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15992,7 +16026,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 95.25 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16041,8 +16075,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 246.38 78.74 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 257.81 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16053,7 +16087,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd4bfa27-41ae-4106-a3bb-8229286c2901")
 		(property "Reference" "D3"
-			(at 248.92 77.4699 90)
+			(at 260.35 69.8499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16063,8 +16097,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 248.92 80.0099 90)
+		(property "Value" "TS4148"
+			(at 260.35 72.3899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16075,7 +16109,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 246.38 78.74 0)
+			(at 257.81 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16085,8 +16119,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 246.38 78.74 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 257.81 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16096,8 +16130,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 246.38 78.74 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 257.81 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16203,7 +16237,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 259.08 116.84 0)
+		(at 270.51 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16214,7 +16248,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4b6d9ac-2ec8-4f04-8456-8cdc416cb018")
 		(property "Reference" "SW12"
-			(at 259.08 109.22 0)
+			(at 270.51 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16224,7 +16258,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 259.08 111.76 0)
+			(at 270.51 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16234,7 +16268,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 259.08 111.76 0)
+			(at 270.51 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16245,7 +16279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 111.76 0)
+			(at 270.51 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16256,7 +16290,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 259.08 116.84 0)
+			(at 270.51 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16312,7 +16346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 72.39 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16362,7 +16396,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 215.9 116.84 0)
+		(at 227.33 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16373,7 +16407,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6421306-bf6e-4bbb-b962-84d608e4ef25")
 		(property "Reference" "SW10"
-			(at 215.9 109.22 0)
+			(at 227.33 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16383,7 +16417,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 215.9 111.76 0)
+			(at 227.33 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16393,7 +16427,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 215.9 111.76 0)
+			(at 227.33 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16404,7 +16438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 111.76 0)
+			(at 227.33 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16415,7 +16449,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 215.9 116.84 0)
+			(at 227.33 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16475,7 +16509,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 175.26 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -16558,7 +16592,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 34.29 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -16641,7 +16675,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 229.87 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -16712,7 +16746,7 @@
 			)
 		)
 		(property "Value" "8MB QSPI Flash"
-			(at 260.35 45.72 0)
+			(at 257.302 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16722,7 +16756,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_R-PUSON-N8_USON-8-1EP_1.6x2.1mm_P0.5mm_EP0.4x1.7mm"
+		(property "Footprint" "PCM_SparkFun-Semiconductor-Standard:USON-8_3x2mm-SkinnyCenterPad"
 			(at 273.05 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -16764,9 +16798,6 @@
 		(pin "5"
 			(uuid "2da370d3-bffb-4d99-9191-a3bac4521add")
 		)
-		(pin "PAD"
-			(uuid "5dfbc717-9d1b-4636-8c78-f2c725522aec")
-		)
 		(pin "2"
 			(uuid "2cd9a842-a6eb-44d3-9781-9081d3d8339e")
 		)
@@ -16781,6 +16812,9 @@
 		)
 		(pin "6"
 			(uuid "027044b6-07db-483f-99fb-600017420552")
+		)
+		(pin "9"
+			(uuid "2706dc3f-1fbc-42a9-bae5-6c4466d45b9d")
 		)
 		(instances
 			(project "MECHANICAL NUMPAD PCB WITH RP2040"
@@ -17026,8 +17060,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 203.2 100.33 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 214.63 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17038,7 +17072,7 @@
 		(fields_autoplaced yes)
 		(uuid "da37809b-15dd-4eae-bb2f-a8f3ef8c0696")
 		(property "Reference" "D5"
-			(at 205.74 99.0599 90)
+			(at 217.17 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17048,8 +17082,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 205.74 101.5999 90)
+		(property "Value" "TS4148"
+			(at 217.17 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17060,7 +17094,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 203.2 100.33 0)
+			(at 214.63 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17070,8 +17104,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 203.2 100.33 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 214.63 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17081,8 +17115,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 203.2 100.33 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 214.63 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17109,7 +17143,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 259.08 73.66 0)
+		(at 270.51 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17120,7 +17154,7 @@
 		(fields_autoplaced yes)
 		(uuid "da65ccd7-c573-40dd-b44d-57804b738573")
 		(property "Reference" "SW4"
-			(at 259.08 66.04 0)
+			(at 270.51 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17130,7 +17164,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 259.08 68.58 0)
+			(at 270.51 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17140,7 +17174,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 259.08 68.58 0)
+			(at 270.51 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17151,7 +17185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 68.58 0)
+			(at 270.51 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17162,7 +17196,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 259.08 73.66 0)
+			(at 270.51 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17267,7 +17301,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:microbuilder_VBUS")
-		(at 16.51 16.51 0)
+		(at 16.51 15.24 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17277,7 +17311,7 @@
 		(dnp no)
 		(uuid "de9c4816-2d1f-42c6-947a-418911666f60")
 		(property "Reference" "#U$3"
-			(at 16.51 16.51 0)
+			(at 16.51 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17288,7 +17322,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 14.986 15.494 0)
+			(at 14.986 14.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17299,7 +17333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 16.51 16.51 0)
+			(at 16.51 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17310,7 +17344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 16.51 0)
+			(at 16.51 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17321,7 +17355,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 16.51 16.51 0)
+			(at 16.51 15.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17345,7 +17379,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 215.9 95.25 0)
+		(at 227.33 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17356,7 +17390,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea1cba3e-c90a-4b31-95a9-c68f0c8ca1fb")
 		(property "Reference" "SW6"
-			(at 215.9 87.63 0)
+			(at 227.33 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17366,7 +17400,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 215.9 90.17 0)
+			(at 227.33 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17376,7 +17410,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 215.9 90.17 0)
+			(at 227.33 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17387,7 +17421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 90.17 0)
+			(at 227.33 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17398,7 +17432,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 215.9 95.25 0)
+			(at 227.33 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17424,8 +17458,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 267.97 100.33 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 279.4 92.71 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17436,7 +17470,7 @@
 		(fields_autoplaced yes)
 		(uuid "ecfff004-7d1d-47d2-941f-bf0c3ff11abe")
 		(property "Reference" "D8"
-			(at 270.51 99.0599 90)
+			(at 281.94 91.4399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17446,8 +17480,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 270.51 101.5999 90)
+		(property "Value" "TS4148"
+			(at 281.94 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17458,7 +17492,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 267.97 100.33 0)
+			(at 279.4 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17468,8 +17502,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 267.97 100.33 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 279.4 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17479,8 +17513,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 267.97 100.33 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 279.4 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17536,7 +17570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 22.86 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -17586,7 +17620,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 194.31 95.25 0)
+		(at 205.74 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17597,7 +17631,7 @@
 		(fields_autoplaced yes)
 		(uuid "f19db331-5a39-4fc2-97b4-814ba399129c")
 		(property "Reference" "SW5"
-			(at 194.31 87.63 0)
+			(at 205.74 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17607,7 +17641,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 194.31 90.17 0)
+			(at 205.74 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17617,7 +17651,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 194.31 90.17 0)
+			(at 205.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17628,7 +17662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 90.17 0)
+			(at 205.74 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17639,7 +17673,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 194.31 95.25 0)
+			(at 205.74 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17699,7 +17733,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 120.65 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -17827,7 +17861,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 259.08 137.16 0)
+		(at 270.51 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17838,7 +17872,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbb89334-b32e-4b7a-aca1-4294b14a554e")
 		(property "Reference" "SW16"
-			(at 259.08 129.54 0)
+			(at 270.51 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17848,7 +17882,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 259.08 132.08 0)
+			(at 270.51 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17858,7 +17892,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-			(at 259.08 132.08 0)
+			(at 270.51 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17869,7 +17903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 132.08 0)
+			(at 270.51 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17880,7 +17914,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 259.08 137.16 0)
+			(at 270.51 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17936,7 +17970,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -17985,8 +18019,8 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_AKL:CD4148WT")
-		(at 246.38 142.24 270)
+		(lib_id "PCM_Diode_AKL:CD4148WS")
+		(at 257.81 134.62 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17997,7 +18031,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffc78175-c6e8-473c-a1a2-dead653cf9b5")
 		(property "Reference" "D15"
-			(at 248.92 140.9699 90)
+			(at 260.35 133.3499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18007,8 +18041,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CD4148WT"
-			(at 248.92 143.5099 90)
+		(property "Value" "TS4148"
+			(at 260.35 135.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18019,7 +18053,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Diode_SMD_AKL:D_0805_2012Metric"
-			(at 246.38 142.24 0)
+			(at 257.81 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18029,8 +18063,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.octopart.com/CD4148WT%280603C%29-Diodes-Inc.-datasheet-23752567.pdf"
-			(at 246.38 142.24 0)
+		(property "Datasheet" "https://datasheet.octopart.com/CD4148WS%280805C%29-Diodes-Inc.-datasheet-23752567.pdf"
+			(at 257.81 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18040,8 +18074,8 @@
 				)
 			)
 		)
-		(property "Description" "0603 Diode, Small-Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
-			(at 246.38 142.24 0)
+		(property "Description" "0805 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+			(at 257.81 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
