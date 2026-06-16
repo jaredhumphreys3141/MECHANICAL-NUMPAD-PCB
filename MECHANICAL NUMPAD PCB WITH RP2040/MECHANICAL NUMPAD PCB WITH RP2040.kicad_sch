@@ -5800,7 +5800,7 @@
 		(uuid "91d94743-5505-448c-8665-47e33b936d4b")
 	)
 	(junction
-		(at 17.78 139.7)
+		(at 35.56 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05f02820-bf3e-4476-a11c-28d3338b081c")
@@ -5866,7 +5866,7 @@
 		(uuid "35036586-389d-4e27-9130-49c709e5986e")
 	)
 	(junction
-		(at 27.94 135.89)
+		(at 45.72 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d1c2894-3a28-4068-884a-82e3110b217b")
@@ -5926,7 +5926,7 @@
 		(uuid "555ce352-e913-45e4-b192-4e71854f81c5")
 	)
 	(junction
-		(at 21.59 114.3)
+		(at 39.37 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56c6c3db-0db5-4e05-9b28-5d5a92138dc6")
@@ -5938,13 +5938,13 @@
 		(uuid "79009108-7f08-4e2a-a819-604547963d78")
 	)
 	(junction
-		(at 39.37 127)
+		(at 57.15 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7cb5a67e-7fe0-4082-b9e0-e4f9975732af")
 	)
 	(junction
-		(at 27.94 143.51)
+		(at 45.72 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8326bbc4-f684-44a3-a8ba-c4655a7d3ce0")
@@ -5998,13 +5998,13 @@
 		(uuid "b7844b4a-b47f-44fb-9d33-e0feb36d35ba")
 	)
 	(junction
-		(at 21.59 111.76)
+		(at 39.37 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9ed77eb-8179-4a4d-bb9a-66f7573e3157")
 	)
 	(junction
-		(at 21.59 116.84)
+		(at 39.37 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdd5586f-0453-47d4-b5f6-4a436fe3fac4")
@@ -6066,59 +6066,59 @@
 		(uuid "3c16030a-a7cd-47b8-8bef-7d39086229e0")
 	)
 	(no_connect
-		(at 39.37 149.86)
+		(at 57.15 152.4)
 		(uuid "4d49ee5c-baf4-4815-b409-b18590302699")
 	)
 	(no_connect
-		(at 115.57 185.42)
+		(at 133.35 187.96)
 		(uuid "80a252e7-271e-4690-b098-e51ab293aee9")
 	)
 	(no_connect
-		(at 115.57 152.4)
+		(at 133.35 154.94)
 		(uuid "81df312e-fda1-4f0d-98d5-20d9a933eb49")
 	)
 	(no_connect
-		(at 39.37 152.4)
+		(at 57.15 154.94)
 		(uuid "8287780b-a786-49b8-a1e0-f74c1163091a")
 	)
 	(no_connect
-		(at 39.37 157.48)
+		(at 57.15 160.02)
 		(uuid "9dbd4c95-77e0-4189-aa01-251699c8021b")
 	)
 	(no_connect
-		(at 115.57 165.1)
+		(at 133.35 167.64)
 		(uuid "a8c6dbef-19b5-4924-9a49-6e7f1615e3c2")
 	)
 	(no_connect
-		(at 115.57 142.24)
+		(at 133.35 144.78)
 		(uuid "a8f03be4-8efd-49a1-a579-0391ab91bf56")
 	)
 	(no_connect
-		(at 39.37 147.32)
+		(at 57.15 149.86)
 		(uuid "b30170da-2542-4ecb-9a98-a9b5946be384")
 	)
 	(no_connect
-		(at 115.57 162.56)
+		(at 133.35 165.1)
 		(uuid "b7e17023-a33e-4066-b046-0366f898fc1a")
 	)
 	(no_connect
-		(at 115.57 149.86)
+		(at 133.35 152.4)
 		(uuid "cb600afe-94a0-4ee2-8faa-40dee0c8605e")
 	)
 	(no_connect
-		(at 115.57 144.78)
+		(at 133.35 147.32)
 		(uuid "d54290f9-4360-45e8-9455-5047bc42f3e7")
 	)
 	(no_connect
-		(at 39.37 160.02)
+		(at 57.15 162.56)
 		(uuid "d6d48fb9-5847-49b6-9911-bc0c526cc690")
 	)
 	(no_connect
-		(at 39.37 154.94)
+		(at 57.15 157.48)
 		(uuid "db9490db-c7c1-4303-a238-006ea6abaea0")
 	)
 	(no_connect
-		(at 115.57 167.64)
+		(at 133.35 170.18)
 		(uuid "e1db5746-d30d-4408-be2a-53f653541780")
 	)
 	(no_connect
@@ -6126,7 +6126,7 @@
 		(uuid "e9957675-3460-4bab-93e7-1cfcc1f65eb1")
 	)
 	(no_connect
-		(at 115.57 182.88)
+		(at 133.35 185.42)
 		(uuid "f06667df-c313-484b-8a6f-82de78bd238a")
 	)
 	(wire
@@ -6141,7 +6141,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 129.54) (xy 125.73 129.54)
+			(xy 133.35 132.08) (xy 143.51 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -6151,7 +6151,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 116.84) (xy 21.59 116.84)
+			(xy 57.15 119.38) (xy 39.37 119.38)
 		)
 		(stroke
 			(width 0.1524)
@@ -6171,7 +6171,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 135.89) (xy 35.56 139.7)
+			(xy 53.34 138.43) (xy 53.34 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6181,7 +6181,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 114.3) (xy 21.59 114.3)
+			(xy 57.15 116.84) (xy 39.37 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -6201,7 +6201,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 127) (xy 39.37 127)
+			(xy 49.53 129.54) (xy 57.15 129.54)
 		)
 		(stroke
 			(width 0.1524)
@@ -6231,7 +6231,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 143.51) (xy 25.4 147.32)
+			(xy 43.18 146.05) (xy 43.18 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6481,7 +6481,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 116.84) (xy 118.11 116.84)
+			(xy 133.35 119.38) (xy 135.89 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6491,7 +6491,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 104.14) (xy 21.59 106.68)
+			(xy 48.26 106.68) (xy 48.26 109.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -6531,7 +6531,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 135.89) (xy 35.56 135.89)
+			(xy 45.72 138.43) (xy 53.34 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6561,7 +6561,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 134.62) (xy 31.75 134.62)
+			(xy 57.15 137.16) (xy 49.53 137.16)
 		)
 		(stroke
 			(width 0.1524)
@@ -6581,7 +6581,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 124.46) (xy 39.37 127)
+			(xy 57.15 127) (xy 57.15 129.54)
 		)
 		(stroke
 			(width 0.1524)
@@ -6681,7 +6681,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 139.7) (xy 39.37 139.7)
+			(xy 53.34 142.24) (xy 57.15 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6741,7 +6741,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 135.89) (xy 27.94 137.16)
+			(xy 45.72 138.43) (xy 45.72 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6751,7 +6751,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 177.8) (xy 39.37 177.8)
+			(xy 39.37 180.34) (xy 57.15 180.34)
 		)
 		(stroke
 			(width 0.1524)
@@ -6761,7 +6761,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 172.72) (xy 39.37 172.72)
+			(xy 39.37 175.26) (xy 57.15 175.26)
 		)
 		(stroke
 			(width 0.1524)
@@ -6791,7 +6791,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 114.3) (xy 21.59 111.76)
+			(xy 39.37 116.84) (xy 39.37 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -6891,7 +6891,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 167.64) (xy 21.59 167.64)
+			(xy 57.15 170.18) (xy 39.37 170.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -6901,7 +6901,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 143.51) (xy 39.37 142.24)
+			(xy 57.15 146.05) (xy 57.15 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6981,7 +6981,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 143.51) (xy 29.21 143.51)
+			(xy 45.72 146.05) (xy 46.99 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7021,7 +7021,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 119.38) (xy 21.59 116.84)
+			(xy 39.37 121.92) (xy 39.37 119.38)
 		)
 		(stroke
 			(width 0.1524)
@@ -7031,7 +7031,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 170.18) (xy 21.59 170.18)
+			(xy 57.15 172.72) (xy 39.37 172.72)
 		)
 		(stroke
 			(width 0.1524)
@@ -7051,7 +7051,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 135.89) (xy 27.94 135.89)
+			(xy 43.18 138.43) (xy 45.72 138.43)
 		)
 		(stroke
 			(width 0)
@@ -7151,6 +7151,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 66.04) (xy 279.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c81cb01-99a3-4a45-bcfd-e91a97a5a2c2")
+	)
+	(wire
+		(pts
 			(xy 236.22 87.63) (xy 236.22 88.9)
 		)
 		(stroke
@@ -7191,7 +7201,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 111.76) (xy 21.59 111.76)
+			(xy 57.15 114.3) (xy 39.37 114.3)
 		)
 		(stroke
 			(width 0.1524)
@@ -7221,7 +7231,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 147.32) (xy 17.78 139.7)
+			(xy 35.56 149.86) (xy 35.56 142.24)
 		)
 		(stroke
 			(width 0.1524)
@@ -7361,7 +7371,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 139.7) (xy 17.78 135.89)
+			(xy 35.56 142.24) (xy 35.56 138.43)
 		)
 		(stroke
 			(width 0.1524)
@@ -7371,7 +7381,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 111.76) (xy 118.11 111.76)
+			(xy 133.35 114.3) (xy 135.89 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7421,7 +7431,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 106.68) (xy 39.37 106.68)
+			(xy 48.26 109.22) (xy 57.15 109.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -7431,7 +7441,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 116.84) (xy 21.59 114.3)
+			(xy 39.37 119.38) (xy 39.37 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -7441,7 +7451,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 143.51) (xy 27.94 143.51)
+			(xy 43.18 146.05) (xy 45.72 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7501,7 +7511,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 132.08) (xy 125.73 132.08)
+			(xy 133.35 134.62) (xy 143.51 134.62)
 		)
 		(stroke
 			(width 0.1524)
@@ -7541,7 +7551,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 139.7) (xy 128.27 139.7)
+			(xy 133.35 142.24) (xy 146.05 142.24)
 		)
 		(stroke
 			(width 0.1524)
@@ -7601,7 +7611,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 91.44) (xy 21.59 93.98)
+			(xy 48.26 95.25) (xy 48.26 96.52)
 		)
 		(stroke
 			(width 0.1524)
@@ -7631,7 +7641,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 142.24) (xy 27.94 143.51)
+			(xy 45.72 144.78) (xy 45.72 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7641,7 +7651,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 114.3) (xy 118.11 114.3)
+			(xy 133.35 116.84) (xy 135.89 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7661,7 +7671,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 180.34) (xy 39.37 180.34)
+			(xy 39.37 182.88) (xy 57.15 182.88)
 		)
 		(stroke
 			(width 0.1524)
@@ -7761,7 +7771,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 106.68) (xy 118.11 106.68)
+			(xy 133.35 109.22) (xy 135.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -7781,7 +7791,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 104.14) (xy 118.11 104.14)
+			(xy 133.35 106.68) (xy 135.89 106.68)
 		)
 		(stroke
 			(width 0.1524)
@@ -7851,7 +7861,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 127) (xy 118.11 127)
+			(xy 133.35 129.54) (xy 135.89 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7861,7 +7871,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 137.16) (xy 128.27 137.16)
+			(xy 133.35 139.7) (xy 146.05 139.7)
 		)
 		(stroke
 			(width 0.1524)
@@ -7951,6 +7961,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 74.93) (xy 279.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaef00b4-ad64-4d85-a02f-08df6f2a3797")
+	)
+	(wire
+		(pts
 			(xy 262.89 66.04) (xy 265.43 66.04)
 		)
 		(stroke
@@ -8001,7 +8021,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 175.26) (xy 39.37 175.26)
+			(xy 39.37 177.8) (xy 57.15 177.8)
 		)
 		(stroke
 			(width 0.1524)
@@ -8011,7 +8031,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 119.38) (xy 21.59 119.38)
+			(xy 57.15 121.92) (xy 39.37 121.92)
 		)
 		(stroke
 			(width 0.1524)
@@ -8051,7 +8071,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 109.22) (xy 118.11 109.22)
+			(xy 133.35 111.76) (xy 135.89 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8068,6 +8088,16 @@
 			(type default)
 		)
 		(uuid "fb02d97c-3b03-47ac-b4be-d2d721dbbbea")
+	)
+	(wire
+		(pts
+			(xy 275.59 66.04) (xy 279.4 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc29befe-6f43-4db2-b732-5ae9088673c7")
 	)
 	(wire
 		(pts
@@ -8110,7 +8140,7 @@
 		(uuid "fff03cdc-4ca9-4b7f-9644-a10017cabc3c")
 	)
 	(label "QSPI_DATA[2]"
-		(at 21.59 177.8 0)
+		(at 39.37 180.34 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8120,7 +8150,7 @@
 		(uuid "055b55f5-3bdf-42b9-81b0-c2e86634213f")
 	)
 	(label "ROW5"
-		(at 118.11 127 0)
+		(at 135.89 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8139,7 +8169,7 @@
 		)
 		(uuid "0ee164ab-0042-4b2f-a04b-2eee46da30a7")
 	)
-	(label "ROW2"
+	(label "ROW5"
 		(at 193.04 161.29 180)
 		(effects
 			(font
@@ -8160,7 +8190,7 @@
 		(uuid "22f1d215-5805-4a7f-9c60-6f70a2bcab71")
 	)
 	(label "COL3"
-		(at 118.11 109.22 0)
+		(at 135.89 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8180,7 +8210,7 @@
 		(uuid "2e6fa642-7e4f-4132-b420-38c54b19449a")
 	)
 	(label "D+"
-		(at 125.73 177.8 0)
+		(at 143.51 180.34 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8210,7 +8240,7 @@
 		(uuid "44df2b5f-428c-4e51-888b-0084c2cb3954")
 	)
 	(label "ROW3"
-		(at 115.57 119.38 0)
+		(at 133.35 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8230,7 +8260,7 @@
 		(uuid "460cb1ef-9209-4d11-8471-b6131f075e12")
 	)
 	(label "MISO"
-		(at 115.57 160.02 0)
+		(at 133.35 162.56 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8240,7 +8270,7 @@
 		(uuid "5139095e-3f64-4e56-a988-e43785d3959d")
 	)
 	(label "USB_BOOT"
-		(at 115.57 134.62 0)
+		(at 133.35 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8250,7 +8280,7 @@
 		(uuid "5abda964-14d8-4a18-ae2a-8ee24f42d9dd")
 	)
 	(label "SDA"
-		(at 118.11 137.16 0)
+		(at 135.89 139.7 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8260,7 +8290,7 @@
 		(uuid "6442edd4-592a-4014-9db4-ec67a1d9d1b2")
 	)
 	(label "ROW2"
-		(at 118.11 116.84 0)
+		(at 135.89 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8270,7 +8300,7 @@
 		(uuid "6c85bf19-6fd9-48c3-a7ae-fea91a0b5af6")
 	)
 	(label "SCL"
-		(at 118.11 139.7 0)
+		(at 135.89 142.24 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8280,7 +8310,7 @@
 		(uuid "6da34075-24bf-4ea8-97e2-28cd6817ec87")
 	)
 	(label "~{RESET}"
-		(at 22.86 106.68 0)
+		(at 49.53 109.22 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8290,7 +8320,7 @@
 		(uuid "6ebfca2c-1789-4df3-ad12-77a9b66c81f0")
 	)
 	(label "QSPI_SCK"
-		(at 21.59 167.64 0)
+		(at 39.37 170.18 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8300,7 +8330,7 @@
 		(uuid "6f475325-5fda-418a-addc-fba514317752")
 	)
 	(label "SCLK"
-		(at 115.57 154.94 0)
+		(at 133.35 157.48 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8349,7 +8379,7 @@
 		)
 		(uuid "8a14380b-f154-4a4b-9f00-66789271d8ed")
 	)
-	(label "ROW2"
+	(label "ROW3"
 		(at 193.04 120.65 180)
 		(effects
 			(font
@@ -8360,7 +8390,7 @@
 		(uuid "a0dfabbe-9d6f-4dfd-8540-0e3e3155a5d8")
 	)
 	(label "QSPI_CS"
-		(at 21.59 170.18 0)
+		(at 39.37 172.72 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8370,7 +8400,7 @@
 		(uuid "bd58cb07-0fc9-4f68-8990-77082ca0d291")
 	)
 	(label "COL1"
-		(at 118.11 104.14 0)
+		(at 135.89 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8380,7 +8410,7 @@
 		(uuid "bd5bab77-2c70-4991-b79a-47141599af3b")
 	)
 	(label "MOSI"
-		(at 115.57 157.48 0)
+		(at 133.35 160.02 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8389,7 +8419,7 @@
 		)
 		(uuid "befe9a86-cf7e-40c3-877c-4b7ea33f48dd")
 	)
-	(label "ROW2"
+	(label "ROW4"
 		(at 193.04 140.97 180)
 		(effects
 			(font
@@ -8400,7 +8430,7 @@
 		(uuid "c7683e1c-8768-4ff5-8d73-c5ba1becd428")
 	)
 	(label "QSPI_DATA[0]"
-		(at 21.59 172.72 0)
+		(at 39.37 175.26 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8410,7 +8440,7 @@
 		(uuid "c7f4ab05-1833-455f-912d-fee8d366fb42")
 	)
 	(label "ROW4"
-		(at 115.57 121.92 0)
+		(at 133.35 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8420,7 +8450,7 @@
 		(uuid "ccccda6d-68cb-4c22-866f-8bcaf4b6db19")
 	)
 	(label "QSPI_DATA[1]"
-		(at 21.59 175.26 0)
+		(at 39.37 177.8 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8440,7 +8470,7 @@
 		(uuid "cdf80ef0-56ba-4860-9e7e-1fcb3a47082c")
 	)
 	(label "D10"
-		(at 118.11 132.08 0)
+		(at 135.89 134.62 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8470,7 +8500,7 @@
 		(uuid "d82ed5b6-3ce7-4cf8-a0cd-2762b61a2163")
 	)
 	(label "COL4"
-		(at 118.11 111.76 0)
+		(at 135.89 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8480,7 +8510,7 @@
 		(uuid "e24e806d-140f-4e6a-88d1-994ce1207c69")
 	)
 	(label "D-"
-		(at 125.73 175.26 0)
+		(at 143.51 177.8 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8530,7 +8560,7 @@
 		(uuid "ef2ed8a4-f83d-46db-91a2-8f8b3a216418")
 	)
 	(label "COL2"
-		(at 118.11 106.68 0)
+		(at 135.89 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8540,7 +8570,7 @@
 		(uuid "f3720d33-58fd-4471-9ded-64d76c922315")
 	)
 	(label "D9"
-		(at 118.11 129.54 0)
+		(at 135.89 132.08 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8550,7 +8580,7 @@
 		(uuid "f3b8749d-0b62-4912-b0f2-2a0b0420d45e")
 	)
 	(label "QSPI_DATA[3]"
-		(at 21.59 180.34 0)
+		(at 39.37 182.88 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -8570,7 +8600,7 @@
 		(uuid "f9427bfd-f4cd-458a-88dc-3ae3ed0e6542")
 	)
 	(label "ROW1"
-		(at 118.11 114.3 0)
+		(at 135.89 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8581,7 +8611,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:3.3V")
-		(at 72.39 81.28 0)
+		(at 73.66 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8591,7 +8621,7 @@
 		(dnp no)
 		(uuid "03028e19-b730-4891-8376-f4839b1f2ee9")
 		(property "Reference" "#U$25"
-			(at 72.39 81.28 0)
+			(at 73.66 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8602,7 +8632,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 70.866 80.264 0)
+			(at 72.136 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8613,7 +8643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 81.28 0)
+			(at 73.66 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8624,7 +8654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 81.28 0)
+			(at 73.66 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8635,7 +8665,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 81.28 0)
+			(at 73.66 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8741,7 +8771,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CRYSTAL2.5X2.0")
-		(at 27.94 139.7 90)
+		(at 45.72 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8751,7 +8781,7 @@
 		(dnp no)
 		(uuid "04428651-1d76-40fb-b6e5-cc8c2800c3ae")
 		(property "Reference" "Y1"
-			(at 32.258 135.382 90)
+			(at 50.038 137.922 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8762,7 +8792,7 @@
 			)
 		)
 		(property "Value" "12MHZ"
-			(at 29.972 139.192 90)
+			(at 47.752 141.732 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8773,7 +8803,7 @@
 			)
 		)
 		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
-			(at 24.892 139.446 0)
+			(at 42.672 141.986 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8784,7 +8814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 139.7 0)
+			(at 45.72 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8795,7 +8825,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 139.7 0)
+			(at 45.72 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9065,7 +9095,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:3.3V")
-		(at 110.49 81.28 0)
+		(at 111.76 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9075,7 +9105,7 @@
 		(dnp no)
 		(uuid "1431bf53-aa0d-47d9-b250-6611ff1e08c5")
 		(property "Reference" "#U$5"
-			(at 110.49 81.28 0)
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9086,7 +9116,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 108.966 80.264 0)
+			(at 110.236 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9097,7 +9127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 81.28 0)
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9108,7 +9138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 81.28 0)
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9119,7 +9149,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 81.28 0)
+			(at 111.76 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9299,7 +9329,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC0603_NO")
-		(at 62.23 88.9 0)
+		(at 63.5 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9309,7 +9339,7 @@
 		(dnp no)
 		(uuid "1750bfd8-28f5-4f7a-9ddb-d73d486e7f69")
 		(property "Reference" "C15"
-			(at 59.94 87.65 90)
+			(at 61.21 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9319,7 +9349,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 64.53 87.65 90)
+			(at 65.8 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9329,7 +9359,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 62.23 88.9 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9340,7 +9370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 88.9 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9351,7 +9381,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 88.9 0)
+			(at 63.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9378,7 +9408,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:GND")
-		(at 118.11 93.98 0)
+		(at 119.38 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9388,7 +9418,7 @@
 		(dnp no)
 		(uuid "1916b792-6f17-428e-827a-6696b1d1dad3")
 		(property "Reference" "#U$53"
-			(at 118.11 93.98 0)
+			(at 119.38 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9399,7 +9429,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.586 96.52 0)
+			(at 117.856 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9410,7 +9440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 93.98 0)
+			(at 119.38 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9421,7 +9451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 93.98 0)
+			(at 119.38 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9432,7 +9462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 93.98 0)
+			(at 119.38 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9456,7 +9486,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:1.2V")
-		(at 39.37 81.28 0)
+		(at 40.64 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9466,7 +9496,7 @@
 		(dnp no)
 		(uuid "1d306325-8757-4d78-bfd5-df9864241587")
 		(property "Reference" "#U$46"
-			(at 39.37 81.28 0)
+			(at 40.64 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9477,7 +9507,7 @@
 			)
 		)
 		(property "Value" "1.2V"
-			(at 37.846 80.264 0)
+			(at 39.116 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9488,7 +9518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 81.28 0)
+			(at 40.64 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9499,7 +9529,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 81.28 0)
+			(at 40.64 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9510,7 +9540,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 81.28 0)
+			(at 40.64 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9696,7 +9726,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:1.2V")
-		(at 31.75 124.46 0)
+		(at 49.53 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9706,7 +9736,7 @@
 		(dnp no)
 		(uuid "1e46b862-b79d-4c3e-8a3b-f1bbe65f303a")
 		(property "Reference" "#U$40"
-			(at 31.75 124.46 0)
+			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9717,7 +9747,7 @@
 			)
 		)
 		(property "Value" "1.2V"
-			(at 30.226 123.444 0)
+			(at 48.006 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9728,7 +9758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 124.46 0)
+			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9739,7 +9769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 124.46 0)
+			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9750,7 +9780,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 124.46 0)
+			(at 49.53 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9938,7 +9968,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:GND")
-		(at 87.63 93.98 0)
+		(at 88.9 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9948,7 +9978,7 @@
 		(dnp no)
 		(uuid "20ef4c6c-79ea-49de-9185-c57d606563c7")
 		(property "Reference" "#U$49"
-			(at 87.63 93.98 0)
+			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9959,7 +9989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.106 96.52 0)
+			(at 87.376 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9970,7 +10000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 93.98 0)
+			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9981,7 +10011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 93.98 0)
+			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9992,7 +10022,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 93.98 0)
+			(at 88.9 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10016,7 +10046,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:3.3V")
-		(at 95.25 81.28 0)
+		(at 96.52 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10026,7 +10056,7 @@
 		(dnp no)
 		(uuid "21770d9f-7ec7-4354-8b59-f2480fb7e0f2")
 		(property "Reference" "#U$33"
-			(at 95.25 81.28 0)
+			(at 96.52 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10037,7 +10067,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 93.726 80.264 0)
+			(at 94.996 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10048,7 +10078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 81.28 0)
+			(at 96.52 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10059,7 +10089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 81.28 0)
+			(at 96.52 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10070,7 +10100,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 81.28 0)
+			(at 96.52 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10094,7 +10124,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:3.3V")
-		(at 87.63 81.28 0)
+		(at 88.9 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10104,7 +10134,7 @@
 		(dnp no)
 		(uuid "2319b8d2-5dda-45d9-bcc5-1efb61814e7f")
 		(property "Reference" "#U$32"
-			(at 87.63 81.28 0)
+			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10115,7 +10145,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 86.106 80.264 0)
+			(at 87.376 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10126,7 +10156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 81.28 0)
+			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10137,7 +10167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 81.28 0)
+			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10148,7 +10178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 81.28 0)
+			(at 88.9 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10406,7 +10436,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0603MP")
-		(at 39.37 88.9 0)
+		(at 40.64 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10416,7 +10446,7 @@
 		(dnp no)
 		(uuid "276a75f0-4f7f-4755-809f-c5a7fd534cb9")
 		(property "Reference" "C12"
-			(at 37.08 87.65 90)
+			(at 38.35 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10426,7 +10456,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 41.67 87.65 90)
+			(at 42.94 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10436,7 +10466,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 39.37 88.9 0)
+			(at 40.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10447,7 +10477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 88.9 0)
+			(at 40.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10458,7 +10488,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 88.9 0)
+			(at 40.64 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10485,7 +10515,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:supply1_371_GND")
-		(at 54.61 93.98 0)
+		(at 55.88 81.28 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10496,7 +10526,7 @@
 		(dnp no)
 		(uuid "28937b4a-0bc4-4e9c-87d4-d02c13747427")
 		(property "Reference" "#GND27"
-			(at 54.61 93.98 0)
+			(at 55.88 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10507,7 +10537,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 96.52 0)
+			(at 58.42 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10518,7 +10548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 93.98 0)
+			(at 55.88 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10529,7 +10559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 93.98 0)
+			(at 55.88 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10540,7 +10570,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 93.98 0)
+			(at 55.88 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10564,7 +10594,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:RESISTOR_0402NO")
-		(at 120.65 175.26 0)
+		(at 138.43 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10574,7 +10604,7 @@
 		(dnp no)
 		(uuid "2b3082f9-e630-46cd-bb2e-3cced9824715")
 		(property "Reference" "R4"
-			(at 115.316 175.006 0)
+			(at 133.096 177.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10585,7 +10615,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 119.38 176.022 0)
+			(at 137.16 178.562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10598,7 +10628,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.65 175.26 0)
+			(at 138.43 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10609,7 +10639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 175.26 0)
+			(at 138.43 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10620,7 +10650,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 175.26 0)
+			(at 138.43 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10727,7 +10757,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0402NO")
-		(at 80.01 88.9 0)
+		(at 81.28 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10737,7 +10767,7 @@
 		(dnp no)
 		(uuid "2cbd869a-cb46-40bf-83e9-aa9f40b6c02d")
 		(property "Reference" "C9"
-			(at 77.72 87.65 90)
+			(at 78.99 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10747,7 +10777,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 82.31 87.65 90)
+			(at 83.58 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10757,7 +10787,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 80.01 88.9 0)
+			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10768,7 +10798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 88.9 0)
+			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10779,7 +10809,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 88.9 0)
+			(at 81.28 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10806,7 +10836,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:1.2V")
-		(at 46.99 81.28 0)
+		(at 48.26 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10816,7 +10846,7 @@
 		(dnp no)
 		(uuid "2d4a734a-64b3-4640-ac7c-9a56c6b2b664")
 		(property "Reference" "#U$43"
-			(at 46.99 81.28 0)
+			(at 48.26 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10827,7 +10857,7 @@
 			)
 		)
 		(property "Value" "1.2V"
-			(at 45.466 80.264 0)
+			(at 46.736 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10838,7 +10868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 81.28 0)
+			(at 48.26 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10849,7 +10879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 81.28 0)
+			(at 48.26 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10860,7 +10890,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 81.28 0)
+			(at 48.26 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11210,7 +11240,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0402NO")
-		(at 46.99 86.36 180)
+		(at 48.26 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11220,7 +11250,7 @@
 		(dnp no)
 		(uuid "3313ac2b-7076-446d-8e0a-f887f4696ffd")
 		(property "Reference" "C7"
-			(at 49.28 87.61 90)
+			(at 50.55 74.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11230,7 +11260,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 44.69 87.61 90)
+			(at 45.96 74.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11240,7 +11270,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 46.99 86.36 0)
+			(at 48.26 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11251,7 +11281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 86.36 0)
+			(at 48.26 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11262,7 +11292,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 86.36 0)
+			(at 48.26 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11692,7 +11722,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:1.2V")
-		(at 54.61 81.28 0)
+		(at 55.88 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11702,7 +11732,7 @@
 		(dnp no)
 		(uuid "4659c529-2361-4eb2-ba89-3b9c0c677ae8")
 		(property "Reference" "#U$45"
-			(at 54.61 81.28 0)
+			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11713,7 +11743,7 @@
 			)
 		)
 		(property "Value" "1.2V"
-			(at 53.086 80.264 0)
+			(at 54.356 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11724,7 +11754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 81.28 0)
+			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11735,7 +11765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 81.28 0)
+			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11746,7 +11776,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 81.28 0)
+			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12004,7 +12034,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:supply1_371_GND")
-		(at 39.37 93.98 0)
+		(at 40.64 81.28 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12015,7 +12045,7 @@
 		(dnp no)
 		(uuid "4df20cce-7e07-4aeb-aa7a-fcf1001a8b46")
 		(property "Reference" "#GND28"
-			(at 39.37 93.98 0)
+			(at 40.64 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12026,7 +12056,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 96.52 0)
+			(at 43.18 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12037,7 +12067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 93.98 0)
+			(at 40.64 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12048,7 +12078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 93.98 0)
+			(at 40.64 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12059,7 +12089,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 93.98 0)
+			(at 40.64 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12246,7 +12276,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:supply1_371_GND")
-		(at 15.24 139.7 270)
+		(at 33.02 142.24 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12257,7 +12287,7 @@
 		(dnp no)
 		(uuid "53fe7b09-51f8-4c8c-967a-f06afc8cf7ca")
 		(property "Reference" "#GND31"
-			(at 15.24 139.7 0)
+			(at 33.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12268,7 +12298,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 12.7 142.24 0)
+			(at 30.48 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12279,7 +12309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 15.24 139.7 0)
+			(at 33.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12290,7 +12320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 139.7 0)
+			(at 33.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12301,7 +12331,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 15.24 139.7 0)
+			(at 33.02 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12485,7 +12515,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0402NO")
-		(at 22.86 147.32 90)
+		(at 40.64 149.86 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12495,7 +12525,7 @@
 		(dnp no)
 		(uuid "56ee894a-b28a-4a6f-9009-07cc00124e05")
 		(property "Reference" "C20"
-			(at 21.61 149.61 90)
+			(at 39.39 152.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12505,7 +12535,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 21.61 145.02 90)
+			(at 39.39 147.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12515,7 +12545,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 22.86 147.32 0)
+			(at 40.64 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12526,7 +12556,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 147.32 0)
+			(at 40.64 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12537,7 +12567,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 147.32 0)
+			(at 40.64 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12643,7 +12673,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:supply1_371_GND")
-		(at 46.99 93.98 0)
+		(at 48.26 81.28 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12654,7 +12684,7 @@
 		(dnp no)
 		(uuid "5baee1e3-a29e-4e1c-bb9d-91e0a563aee9")
 		(property "Reference" "#GND26"
-			(at 46.99 93.98 0)
+			(at 48.26 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12665,7 +12695,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 96.52 0)
+			(at 50.8 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12676,7 +12706,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 93.98 0)
+			(at 48.26 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12687,7 +12717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 93.98 0)
+			(at 48.26 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12698,7 +12728,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 46.99 93.98 0)
+			(at 48.26 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13127,7 +13157,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0402NO")
-		(at 87.63 88.9 0)
+		(at 88.9 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13137,7 +13167,7 @@
 		(dnp no)
 		(uuid "6a1d2a4a-334c-4cfb-bb01-7857c0e1e76a")
 		(property "Reference" "C13"
-			(at 85.34 87.65 90)
+			(at 86.61 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13147,7 +13177,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 89.93 87.65 90)
+			(at 91.2 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13157,7 +13187,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 87.63 88.9 0)
+			(at 88.9 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13168,7 +13198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 88.9 0)
+			(at 88.9 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13179,7 +13209,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 88.9 0)
+			(at 88.9 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13206,7 +13236,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:GND")
-		(at 80.01 93.98 0)
+		(at 81.28 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13216,7 +13246,7 @@
 		(dnp no)
 		(uuid "6c22792c-4649-4e49-833d-2d53859cac07")
 		(property "Reference" "#U$48"
-			(at 80.01 93.98 0)
+			(at 81.28 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13227,7 +13257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.486 96.52 0)
+			(at 79.756 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13238,7 +13268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 93.98 0)
+			(at 81.28 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13249,7 +13279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 93.98 0)
+			(at 81.28 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13260,7 +13290,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 93.98 0)
+			(at 81.28 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13362,7 +13392,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:3.3V")
-		(at 118.11 81.28 0)
+		(at 119.38 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13372,7 +13402,7 @@
 		(dnp no)
 		(uuid "79d649d2-4608-452a-ad10-3dc14a4fcc65")
 		(property "Reference" "#U$36"
-			(at 118.11 81.28 0)
+			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13383,7 +13413,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 116.586 80.264 0)
+			(at 117.856 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13394,7 +13424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 81.28 0)
+			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13405,7 +13435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 81.28 0)
+			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13416,7 +13446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 81.28 0)
+			(at 119.38 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13770,7 +13800,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:RP2040_QFN56")
-		(at 77.47 144.78 0)
+		(at 95.25 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13780,7 +13810,7 @@
 		(dnp no)
 		(uuid "8bf0741c-c21c-4cea-892c-677d31c8dbe6")
 		(property "Reference" "IC2"
-			(at 72.39 185.42 0)
+			(at 90.17 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13791,7 +13821,7 @@
 			)
 		)
 		(property "Value" "RP2040_QFN56"
-			(at 69.85 149.86 0)
+			(at 87.63 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13802,7 +13832,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
-			(at 77.47 144.78 0)
+			(at 95.25 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13813,7 +13843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 144.78 0)
+			(at 95.25 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13824,7 +13854,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 77.47 144.78 0)
+			(at 95.25 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14016,7 +14046,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:GND")
-		(at 110.49 93.98 0)
+		(at 111.76 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14026,7 +14056,7 @@
 		(dnp no)
 		(uuid "8c3ccf06-0482-4727-a3c1-39b93f2c9d32")
 		(property "Reference" "#U$52"
-			(at 110.49 93.98 0)
+			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14037,7 +14067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 108.966 96.52 0)
+			(at 110.236 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14048,7 +14078,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 93.98 0)
+			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14059,7 +14089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 93.98 0)
+			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14070,7 +14100,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 93.98 0)
+			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14258,7 +14288,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:3.3V")
-		(at 21.59 88.9 0)
+		(at 48.26 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14268,7 +14298,7 @@
 		(dnp no)
 		(uuid "97a2eee2-3fee-4290-bca9-6d6eddaa7b85")
 		(property "Reference" "#U$37"
-			(at 21.59 88.9 0)
+			(at 48.26 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14279,7 +14309,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 20.066 87.884 0)
+			(at 46.736 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14290,7 +14320,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 88.9 0)
+			(at 48.26 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14301,7 +14331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 88.9 0)
+			(at 48.26 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14312,7 +14342,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 88.9 0)
+			(at 48.26 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14416,7 +14446,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0402NO")
-		(at 54.61 86.36 180)
+		(at 55.88 73.66 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14426,7 +14456,7 @@
 		(dnp no)
 		(uuid "9acd33d2-477d-4aa5-8967-a0014302c4be")
 		(property "Reference" "C11"
-			(at 56.9 87.61 90)
+			(at 58.17 74.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14436,7 +14466,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 52.31 87.61 90)
+			(at 53.58 74.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14446,7 +14476,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 54.61 86.36 0)
+			(at 55.88 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14457,7 +14487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 86.36 0)
+			(at 55.88 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14468,7 +14498,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 86.36 0)
+			(at 55.88 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14940,7 +14970,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:supply1_371_GND")
-		(at 39.37 187.96 0)
+		(at 57.15 190.5 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -14951,7 +14981,7 @@
 		(dnp no)
 		(uuid "a4e0fb4b-2a94-4d89-abd9-d85e732d2a12")
 		(property "Reference" "#GND25"
-			(at 39.37 187.96 0)
+			(at 57.15 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14962,7 +14992,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 190.5 0)
+			(at 59.69 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14973,7 +15003,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 187.96 0)
+			(at 57.15 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14984,7 +15014,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 187.96 0)
+			(at 57.15 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14995,7 +15025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 187.96 0)
+			(at 57.15 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15019,7 +15049,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:RESISTOR_0402NO")
-		(at 21.59 99.06 270)
+		(at 48.26 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15029,7 +15059,7 @@
 		(dnp no)
 		(uuid "a7aeab0b-0122-4c55-bc90-1be0ea7d76ca")
 		(property "Reference" "R9"
-			(at 23.0886 95.25 0)
+			(at 49.7586 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15040,7 +15070,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 18.288 97.79 0)
+			(at 44.958 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15053,7 +15083,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 21.59 99.06 0)
+			(at 48.26 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15064,7 +15094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 99.06 0)
+			(at 48.26 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15075,7 +15105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 99.06 0)
+			(at 48.26 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15102,7 +15132,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:GND")
-		(at 72.39 93.98 0)
+		(at 73.66 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15112,7 +15142,7 @@
 		(dnp no)
 		(uuid "aa57b751-e104-44fa-9f57-fa9697c97518")
 		(property "Reference" "#U$47"
-			(at 72.39 93.98 0)
+			(at 73.66 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15123,7 +15153,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 70.866 96.52 0)
+			(at 72.136 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15134,7 +15164,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 93.98 0)
+			(at 73.66 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15145,7 +15175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 93.98 0)
+			(at 73.66 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15156,7 +15186,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 93.98 0)
+			(at 73.66 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15180,7 +15210,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0402NO")
-		(at 110.49 88.9 0)
+		(at 111.76 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15190,7 +15220,7 @@
 		(dnp no)
 		(uuid "ab37dd06-3c57-4a5e-9dee-189fd9529599")
 		(property "Reference" "C16"
-			(at 108.2 87.65 90)
+			(at 109.47 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15200,7 +15230,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 112.79 87.65 90)
+			(at 114.06 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15210,7 +15240,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 110.49 88.9 0)
+			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15221,7 +15251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 88.9 0)
+			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15232,7 +15262,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 88.9 0)
+			(at 111.76 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15514,7 +15544,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:3.3V")
-		(at 21.59 109.22 0)
+		(at 39.37 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15524,7 +15554,7 @@
 		(dnp no)
 		(uuid "b11f5111-df9a-4922-8d90-7e903b942fbe")
 		(property "Reference" "#U$38"
-			(at 21.59 109.22 0)
+			(at 39.37 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15535,7 +15565,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 17.78 109.22 0)
+			(at 35.56 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15546,7 +15576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 21.59 109.22 0)
+			(at 39.37 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15557,7 +15587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 109.22 0)
+			(at 39.37 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15568,7 +15598,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 21.59 109.22 0)
+			(at 39.37 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15997,7 +16027,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0402NO")
-		(at 95.25 88.9 0)
+		(at 96.52 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16007,7 +16037,7 @@
 		(dnp no)
 		(uuid "b998ed7a-658c-430f-9a39-44ac08c6642a")
 		(property "Reference" "C14"
-			(at 92.96 87.65 90)
+			(at 94.23 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16017,7 +16047,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 97.55 87.65 90)
+			(at 98.82 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16027,7 +16057,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 95.25 88.9 0)
+			(at 96.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16038,7 +16068,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 88.9 0)
+			(at 96.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16049,7 +16079,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 88.9 0)
+			(at 96.52 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16158,7 +16188,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:supply1_371_GND")
-		(at 31.75 132.08 0)
+		(at 49.53 134.62 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -16169,7 +16199,7 @@
 		(dnp no)
 		(uuid "c0bbe016-7076-4b17-8996-c56821294e09")
 		(property "Reference" "#GND24"
-			(at 31.75 132.08 0)
+			(at 49.53 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16180,7 +16210,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 129.54 0)
+			(at 46.99 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16191,7 +16221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 132.08 0)
+			(at 49.53 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16202,7 +16232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 132.08 0)
+			(at 49.53 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16213,7 +16243,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 132.08 0)
+			(at 49.53 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16317,7 +16347,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0603MP")
-		(at 72.39 88.9 0)
+		(at 73.66 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16327,7 +16357,7 @@
 		(dnp no)
 		(uuid "c5f69762-e3d1-4021-b4b1-dea27a210f68")
 		(property "Reference" "C10"
-			(at 70.1 87.65 90)
+			(at 71.37 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16337,7 +16367,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 74.69 87.65 90)
+			(at 75.96 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16347,7 +16377,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 72.39 88.9 0)
+			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16358,7 +16388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 88.9 0)
+			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16369,7 +16399,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 88.9 0)
+			(at 73.66 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16559,7 +16589,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:RESISTOR_0402NO")
-		(at 34.29 143.51 0)
+		(at 52.07 146.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16569,7 +16599,7 @@
 		(dnp no)
 		(uuid "c9515e72-57ad-4e09-9f8f-e9cbcd9a2df0")
 		(property "Reference" "R6"
-			(at 33.02 144.5514 0)
+			(at 50.8 147.0914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16580,7 +16610,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 33.02 146.812 0)
+			(at 50.8 149.352 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16593,7 +16623,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 34.29 143.51 0)
+			(at 52.07 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16604,7 +16634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 143.51 0)
+			(at 52.07 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16615,7 +16645,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 143.51 0)
+			(at 52.07 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16827,7 +16857,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:3.3V")
-		(at 62.23 81.28 0)
+		(at 63.5 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16837,7 +16867,7 @@
 		(dnp no)
 		(uuid "d3a6ae2e-99b0-432f-90b2-62a3d19796e5")
 		(property "Reference" "#U$18"
-			(at 62.23 81.28 0)
+			(at 63.5 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16848,7 +16878,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 60.706 80.264 0)
+			(at 61.976 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16859,7 +16889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 81.28 0)
+			(at 63.5 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16870,7 +16900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 81.28 0)
+			(at 63.5 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16881,7 +16911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 81.28 0)
+			(at 63.5 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16905,7 +16935,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:GND")
-		(at 62.23 93.98 0)
+		(at 63.5 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16915,7 +16945,7 @@
 		(dnp no)
 		(uuid "d4c3397a-cfc1-441f-9334-b37057a57de7")
 		(property "Reference" "#U$4"
-			(at 62.23 93.98 0)
+			(at 63.5 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16926,7 +16956,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.706 96.52 0)
+			(at 61.976 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16937,7 +16967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 93.98 0)
+			(at 63.5 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16948,7 +16978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 93.98 0)
+			(at 63.5 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16959,7 +16989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 93.98 0)
+			(at 63.5 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16983,7 +17013,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:GND")
-		(at 95.25 93.98 0)
+		(at 96.52 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16993,7 +17023,7 @@
 		(dnp no)
 		(uuid "d8060efb-36f4-4472-a45e-008df15cfdbf")
 		(property "Reference" "#U$50"
-			(at 95.25 93.98 0)
+			(at 96.52 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17004,7 +17034,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.726 96.52 0)
+			(at 94.996 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17015,7 +17045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 93.98 0)
+			(at 96.52 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17026,7 +17056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 93.98 0)
+			(at 96.52 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17037,7 +17067,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 93.98 0)
+			(at 96.52 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17541,7 +17571,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0402NO")
-		(at 22.86 135.89 90)
+		(at 40.64 138.43 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17551,7 +17581,7 @@
 		(dnp no)
 		(uuid "f01d52b0-1216-457c-853b-bf76cfe5802f")
 		(property "Reference" "C19"
-			(at 21.61 130.56 90)
+			(at 39.39 133.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17561,7 +17591,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 21.61 133.59 90)
+			(at 39.39 136.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17571,7 +17601,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 22.86 135.89 0)
+			(at 40.64 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17582,7 +17612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 135.89 0)
+			(at 40.64 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17593,7 +17623,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 135.89 0)
+			(at 40.64 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17700,7 +17730,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:RESISTOR_0402NO")
-		(at 120.65 177.8 0)
+		(at 138.43 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17710,7 +17740,7 @@
 		(dnp no)
 		(uuid "f236babe-6758-4bb4-91d6-b2d138598a6b")
 		(property "Reference" "R3"
-			(at 115.316 179.578 0)
+			(at 133.096 182.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17721,7 +17751,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 119.38 178.562 0)
+			(at 137.16 181.102 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17734,7 +17764,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.65 177.8 0)
+			(at 138.43 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17745,7 +17775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 177.8 0)
+			(at 138.43 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17756,7 +17786,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 177.8 0)
+			(at 138.43 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17783,7 +17813,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:3.3V")
-		(at 80.01 81.28 0)
+		(at 81.28 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17793,7 +17823,7 @@
 		(dnp no)
 		(uuid "f5c94e3a-dd59-45ff-bed8-050163417307")
 		(property "Reference" "#U$26"
-			(at 80.01 81.28 0)
+			(at 81.28 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17804,7 +17834,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 78.486 80.264 0)
+			(at 79.756 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17815,7 +17845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 81.28 0)
+			(at 81.28 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17826,7 +17856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 81.28 0)
+			(at 81.28 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17837,7 +17867,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 81.28 0)
+			(at 81.28 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17941,7 +17971,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit KB2040-eagle-import:CAP_CERAMIC_0402NO")
-		(at 118.11 88.9 0)
+		(at 119.38 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17951,7 +17981,7 @@
 		(dnp no)
 		(uuid "feccf3fa-fde6-4988-854b-cee4f6141725")
 		(property "Reference" "C17"
-			(at 115.82 87.65 90)
+			(at 117.09 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17961,7 +17991,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 120.41 87.65 90)
+			(at 121.68 74.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17971,7 +18001,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 118.11 88.9 0)
+			(at 119.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17982,7 +18012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 88.9 0)
+			(at 119.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17993,7 +18023,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 88.9 0)
+			(at 119.38 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
