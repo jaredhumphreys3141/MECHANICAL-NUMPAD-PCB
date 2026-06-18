@@ -56,35 +56,27 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "hole_clearance|64260000|29080000|11a72c35-894c-4678-9c4e-20f95618702f|4558d5d0-6730-4b9a-bef2-bbb2dc93bae8",
+          "clearance|94430100|53516800|de81cd38-2aaa-4c05-8ce5-bf0fdfb84bbc|8f0598c5-270f-4bfc-aff6-ce8e9a509770",
           ""
         ],
         [
-          "hole_clearance|64260000|29080000|beee084e-c800-44c7-a98e-1414a13b749a|4558d5d0-6730-4b9a-bef2-bbb2dc93bae8",
+          "clearance|94430100|54016800|4bf3987c-f228-4e36-ae4a-3e7497525dbf|de81cd38-2aaa-4c05-8ce5-bf0fdfb84bbc",
           ""
         ],
         [
-          "hole_clearance|70360000|29080000|1a7a8a5b-dc5d-46b3-84d5-19ecd9449f8d|42ca6351-0445-4b28-a23f-fc37b01b7b0c",
+          "clearance|94430100|54516800|6eacd0f8-9c6b-4045-a75b-e9cdc2af3ac3|4bf3987c-f228-4e36-ae4a-3e7497525dbf",
           ""
         ],
         [
-          "hole_clearance|70360000|29080000|29b9a713-faba-41e8-9ee9-e7a927831070|42ca6351-0445-4b28-a23f-fc37b01b7b0c",
+          "clearance|97230100|53191800|42e2fe44-ef85-4386-851d-f87ade6863b3|55ee995c-24fa-4286-8afe-aadc4274cd21",
           ""
         ],
         [
-          "starved_thermal|64110000|29505000|e5ace006-f44a-44c7-b59a-3f506abd0666|11a72c35-894c-4678-9c4e-20f95618702f|B.Cu",
+          "clearance|97230100|53691800|55ee995c-24fa-4286-8afe-aadc4274cd21|50f92479-f53f-4b71-952d-87e1e9fe0509",
           ""
         ],
         [
-          "starved_thermal|64110000|29505000|e5ace006-f44a-44c7-b59a-3f506abd0666|beee084e-c800-44c7-a98e-1414a13b749a|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|70510000|29505000|e5ace006-f44a-44c7-b59a-3f506abd0666|1a7a8a5b-dc5d-46b3-84d5-19ecd9449f8d|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|70510000|29505000|e5ace006-f44a-44c7-b59a-3f506abd0666|29b9a713-faba-41e8-9ee9-e7a927831070|B.Cu",
+          "clearance|97230100|54191800|50f92479-f53f-4b71-952d-87e1e9fe0509|f4875fb8-c1a7-459e-bcc5-29bc22ba7dd0",
           ""
         ],
         [
@@ -621,7 +613,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "MECHANICAL NUMPAD PCB GERBERS 2026-06-17/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -763,7 +755,7 @@
         "uuid": "5130ebb2-678e-4db8-86a3-793dd18a1b69"
       }
     ],
-    "used_designators": "#U$42,#PWR3-23,D18-20,D24-40,#U2-10,R13,1,U1",
+    "used_designators": "#U$19-20,#U$42,#U$44,D31-50,#PWR3,#PWR23,1,R13,#U1,U1",
     "variants": []
   },
   "sheets": [
