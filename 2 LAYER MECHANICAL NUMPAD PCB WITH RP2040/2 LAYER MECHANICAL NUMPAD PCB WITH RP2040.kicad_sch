@@ -10961,7 +10961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 92.71 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -11048,7 +11048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 31.75 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -12086,7 +12086,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 62.23 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12723,7 +12723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 62.23 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -12968,7 +12968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 77.47 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -13218,7 +13218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 31.75 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -14625,7 +14625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 62.23 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -15830,7 +15830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 92.71 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -16233,7 +16233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 92.71 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -16398,7 +16398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 46.99 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -16813,7 +16813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 77.47 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -17469,7 +17469,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 77.47 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -18319,7 +18319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 46.99 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -18886,7 +18886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 92.71 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -19054,7 +19054,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 31.75 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -19141,7 +19141,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 77.47 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -19962,7 +19962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 31.75 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -20128,7 +20128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 46.99 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -20856,7 +20856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 46.99 284.48 0)
 			(hide yes)
 			(show_name no)
@@ -21919,7 +21919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
+		(property "Footprint" "JH_FOOTPRINTS:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 62.23 284.48 0)
 			(hide yes)
 			(show_name no)
