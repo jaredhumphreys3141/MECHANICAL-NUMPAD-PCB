@@ -1,16 +1,23 @@
-"Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint"
-"14","0.1uF,10µF,1uF,22pF","","","","Capacitor_SMD:C_0603_1608Metric"
-"19","TS4148","","","","PCM_Diode_SMD_AKL:D_0805_2012Metric"
-"1","GREEN","","","","PCM_SparkFun-LED:LED_0603_1608Metric_Green"
-"20","NEOP","","","","LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-"1","RP2040_QFN56","","","","Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm"
-"1","USB_C_Receptacle_USB2.0_16P","","","","Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-"12","10K,1K,200K,27,5.1K","","","","Resistor_SMD:R_0603_1608Metric"
-"1","FUSE","","","","Fuse:Fuse_0603_1608Metric"
-"1","SOLDERJUMPER","","","","Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
-"17","SW_Push","","","","PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_MX_1.00u"
-"2","SKRAAKE010","","","","JH_FOOTPRINTS:SW4_SKRAAKE010_ALPS"
-"1","LVL SHFTR","","","","Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
-"1","AP2112K-3.3","","","","PCM_SparkFun-Semiconductor-Standard:SOT23-5"
-"1","8MB QSPI Flash","","","","PCM_SparkFun-Semiconductor-Standard:USON-8_3x2mm-SkinnyCenterPad"
-"1","12MHZ","","","","Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C6, C8";"C_0603_1608Metric";2;"10µF";;;
+2;"C7, C9, C11, C13, C14, C16, C17";"C_0603_1608Metric";7;"0.1uF";;;
+3;"C10, C12, C15";"C_0603_1608Metric";3;"1uF";;;
+4;"C19, C20";"C_0603_1608Metric";2;"22pF";;;
+5;"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D21, D23";"D_0805_2012Metric";19;"TS4148";;;
+6;"D22";"LED_0603_1608Metric_Green";1;"GREEN";;;
+7;"D31, D32, D33, D34, D35, D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46, D47, D48, D49, D50";"LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount";20;"NEOP";;;
+8;"IC2";"QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm";1;"RP2040_QFN56";;;
+9;"J1";"USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal";1;"USB_C_Receptacle_USB2.0_16P";;;
+10;"R1, R2";"R_0603_1608Metric";2;"5.1K";;;
+11;"R3, R4";"R_0603_1608Metric";2;"27";;;
+12;"R5, R7, R9, R10, R12";"R_0603_1608Metric";5;"10K";;;
+13;"R6, R11";"R_0603_1608Metric";2;"1K";;;
+14;"R8";"Fuse_0603_1608Metric";1;"FUSE";;;
+15;"R13";"R_0603_1608Metric";1;"200K";;;
+16;"SJ1";"SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm";1;"SOLDERJUMPER";;;
+17;"SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8, SW9, SW10, SW11, SW12, SW13, SW14, SW15, SW16, SW17";"SW_Hotswap_Kailh_MX_1.00u";17;"SW_Push";;;
+18;"SW21, SW22";"SW4_SKRAAKE010_ALPS";2;"SKRAAKE010";;;
+19;"U1";"Texas_S-PVQFN-N14";1;"LVL SHFTR";;;
+20;"U2";"SOT23-5";1;"AP2112K-3.3";;;
+21;"U5";"USON-8_3x2mm-SkinnyCenterPad";1;"8MB QSPI Flash";;;
+22;"Y1";"Crystal_SMD_3215-2Pin_3.2x1.5mm";1;"12MHZ";;;
