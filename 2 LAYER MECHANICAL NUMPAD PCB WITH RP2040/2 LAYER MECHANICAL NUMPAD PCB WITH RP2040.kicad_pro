@@ -476,6 +476,18 @@
   "erc": {
     "erc_exclusions": [
       [
+        "four_way_junction|266700|368300|6bd7c22f-7813-4b17-9eb4-d766ee6cfe51|cb2ce420-3f75-4115-bb20-006c13e61792|/5130ebb2-678e-4db8-86a3-793dd18a1b69||",
+        ""
+      ],
+      [
+        "four_way_junction|304800|2197100|69305619-809d-413d-9c18-297d7b3d7187|9c442a1d-e0e9-4b01-ab40-f6f19f4f9dba|/5130ebb2-678e-4db8-86a3-793dd18a1b69||",
+        ""
+      ],
+      [
+        "four_way_junction|977900|431800|90d86002-7a51-42c6-a8cf-0d549cc30aa2|bb590ec6-5f44-4a93-824f-3b6d75fe4a13|/5130ebb2-678e-4db8-86a3-793dd18a1b69||",
+        ""
+      ],
+      [
         "power_pin_not_driven|304800|2044700|ab43587e-0efd-4868-a3a2-3c3492421c1d|00000000-0000-0000-0000-000000000000|/5130ebb2-678e-4db8-86a3-793dd18a1b69|/5130ebb2-678e-4db8-86a3-793dd18a1b69|",
         ""
       ],
@@ -681,9 +693,9 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "error",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "error",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -708,7 +720,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "warning",
-      "single_global_label": "ignore",
+      "single_global_label": "error",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -834,7 +846,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "GERBERS 2026-06-18/",
+      "plot": "GERBERS 2026-06-22/",
       "specctra_dsn": "",
       "vrml": ""
     },
