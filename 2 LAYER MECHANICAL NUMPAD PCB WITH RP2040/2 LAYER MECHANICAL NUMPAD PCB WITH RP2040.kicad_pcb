@@ -185,7 +185,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -871,7 +871,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -1557,7 +1557,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -2243,7 +2243,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -2929,7 +2929,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -3615,7 +3615,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -4301,7 +4301,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -4987,7 +4987,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -5673,7 +5673,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -6359,7 +6359,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -7045,7 +7045,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -7731,7 +7731,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -8422,7 +8422,7 @@
 			)
 		)
 		(zone_connect 1)
-		(attr allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom dnp allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -0.15 -0.75)
@@ -8594,7 +8594,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -9280,7 +9280,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -9966,7 +9966,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -10652,7 +10652,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -11338,7 +11338,7 @@
 				(pins "1" "2")
 			)
 		)
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -7.1 -7.1)
@@ -12471,6 +12471,12 @@
 		(path "/af2f12d9-593e-4715-b1ab-5ecd01fddbd8")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13595,6 +13601,12 @@
 		(path "/09a9ebe9-9527-4332-9465-8032d75972c5")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14772,6 +14784,12 @@
 		(path "/28b99602-b233-4142-8c41-7b3c84f24fd3")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15846,6 +15864,12 @@
 		(path "/ca8c7bb3-8d4a-46a8-8f32-9f80f82bfb7a")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18020,6 +18044,12 @@
 		(path "/bffb4d58-6176-4d90-a152-f9fdcc8dd085")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20470,6 +20500,12 @@
 		(path "/a38efd4d-eb9d-4ebc-996e-5a812c6f84fa")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20710,6 +20746,12 @@
 		(path "/ace7d3fb-9ed9-4707-884a-eb046439edf1")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21115,6 +21157,12 @@
 		(path "/afc90192-4d99-47da-8592-63a7db5ca900")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21685,6 +21733,12 @@
 		(path "/202e007f-a78e-4fbb-9e2e-f3c5aba3e498")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22367,6 +22421,12 @@
 		(path "/4cdb1878-c663-4503-946a-34d934d79bdd")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24576,6 +24636,12 @@
 		(path "/90cf6beb-6af4-42c5-ae10-e6a1c1047607")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25339,6 +25405,12 @@
 		(path "/74cb3938-cc7c-488b-ba36-d9d13cb09dc8")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25744,6 +25816,12 @@
 		(path "/c2f9f177-6feb-4bc9-86eb-ff88b56afd97")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27835,6 +27913,12 @@
 		(path "/72193432-9513-4d28-99dd-d544f20ed3cc")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28240,6 +28324,12 @@
 		(path "/271cd64a-5f16-44c8-9eed-5de3dd002c56")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29364,6 +29454,14 @@
 		(path "/9def334d-c640-4e2a-8d20-f9da24bc99c2")
 		(sheetname "/")
 		(sheetfile "2 LAYER MECHANICAL NUMPAD PCB WITH RP2040.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "SH" "A1" "A12" "B1" "B12" "A4" "A9" "B4" "B9" "A5" "B5" "A7" "B7"
+					"A6" "B6" "A8" "B8"
+				)
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
